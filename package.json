@@ -17,5 +17,10 @@
         "laravel-mix": "^1.0",
         "lodash": "^4.17.4",
         "vue": "^2.5.7"
+    },
+    "dependencies": {
+        "bulma": "^0.7.5",
+        "bulma-divider": "^0.2.0",
+        "divider": "^0.1.1"
     }
 }
