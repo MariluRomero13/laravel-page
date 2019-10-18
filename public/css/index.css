@@ -1,0 +1,161 @@
+/*Index classes*/
+.menu-space-index {
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    background-color: #023142;
+}
+
+.color-text-logo {
+  color: white;
+  font-weight: 900;
+  font-size: 12px;
+}
+
+.menu-index {
+  padding-left: 17%;
+  padding-right: 17%;
+}
+
+.color-options-menu {
+  color: white !important;
+  font-size: 14px;
+  font-weight: 650;
+  
+}
+.navbar-item.color-options-menu:hover {
+  background: rgba(200,200,200,0.3);
+}
+
+.fondo {
+  background-image: url('http://proyecto-disenoweb.com:8000/images/fondo_azul.jpg');
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3%;
+}
+
+.title-index {
+  text-align: center; 
+  font-size: 40px; 
+  padding-top: 1%; 
+  color: white;
+}
+
+.title-index-1 {
+  text-align: center; 
+  font-size: 25px; 
+  padding-top: 1%; 
+  color: white;
+  font-weight: 600;
+}
+
+.text-index-1 {
+  padding-bottom: 1%; 
+  text-align: center;
+  padding-right: 14%; 
+  padding-left: 14%; 
+  color: white; 
+  font-size: 18px; 
+  font-weight: 400; 
+  line-height: 1.5; 
+  font-style: normal; 
+  letter-spacing: 0; 
+  text-transform: none;
+}
+.fondo-1 {
+  background-image: url('http://proyecto-disenoweb.com:8000/images/fondo_cabeza.jpg');
+  min-height: 450px;
+  min-width: 200px;
+  margin-left: 19%;
+  margin-right: 19%;
+  padding-top: 13%;
+  padding-left: 26%;
+}
+
+.boton-redondo {
+  width:100px;
+  height:100px;
+  background-color:#1473e6 !important;
+  margin: 5px;
+  padding:10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  font-size:11px;
+  line-height:32px;
+  text-transform: uppercase;
+  float:left;
+}
+
+.button-elegir {
+  padding: 0 12px;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 700;
+  background-color: #1473e6;
+  color: #fff;
+  border-radius: 16px;
+  transition: background-color .1s ease,box-shadow .1s ease;
+  margin-left: 45%; 
+  margin-right: 45%; 
+  padding-top: .5%; 
+  padding-bottom: .5%; 
+  margin-bottom: 3%
+}
+
+.button-elegir:hover {
+    color:  white;
+    background-color: #1568ce;
+}
+
+.fondo-2 {
+  background: black;
+  padding-top: 4%;
+  width: 100%;
+  height: 100%;
+
+}
+
+.title-content-1 {
+  text-align: center; 
+  font-size: 30px; 
+  padding-top: 1%; 
+  color: white;
+  font-weight: 600;
+}
+
+.text-content-1 {
+  padding-bottom: 6%; 
+  text-align: center;
+  padding-right: 14%; 
+  padding-left: 14%; 
+  color: white; 
+  font-size: 15px; 
+  font-weight: 400; 
+  line-height: 1.5; 
+  font-style: normal; 
+  letter-spacing: 0; 
+  text-transform: none;
+}
+
+.text-content-2 {
+  text-align: center;
+  padding-right: 10.5%; 
+  padding-left: 10.5%; 
+  color: white; 
+  font-size: 16px; 
+  font-weight: 400; 
+  line-height: 1.5; 
+  font-style: normal; 
+  letter-spacing: 0; 
+  text-transform: none;
+}
+
+.title-content-2 {
+  text-align: center; 
+  padding-right: 4%; 
+  padding-left: 4%; 
+  font-size: 35px; 
+  padding-top: 1%; 
+  color: white;
+  font-weight: 300;
+}
