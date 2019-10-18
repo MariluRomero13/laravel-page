@@ -22,3 +22,7 @@ Route::get('/layout', function () {
 Route::get('/index', function () {
     return view('page.index');
 });
+
+Route::get('/login', function () {
+    return view('page.login');
+});
