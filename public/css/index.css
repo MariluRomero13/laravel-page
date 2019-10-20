@@ -159,3 +159,62 @@
   color: white;
   font-weight: 300;
 }
+
+.ipad-fondo {
+  background-image: url("http://proyecto-disenoweb.com:8000/images/ipad.jpg");
+  height: 100%;
+  width: 100%;
+  padding-top: 11%;
+  padding-bottom: 11%;
+}
+
+.ipad-text {
+  padding-right: 8%; 
+  padding-left: 8%; 
+  font-size: 22px; 
+  padding-top: 1%; 
+  color: white;
+  font-weight: 300;
+}
+.ipad-text-2 {
+  padding-right: 8%; 
+  padding-left: 10%; 
+  font-size: 22px;  
+  color: white;
+  font-weight: 300;
+}
+
+.ipad-text-3 {
+  text-align: center; 
+  color: white;
+  padding-left: 5%;
+  padding-right: 68%;
+}
+
+.enlace {
+  color: #1568ce;
+  padding-left: 13%;
+  padding-right: 68%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.enlace:hover {
+  color: #1568ce;
+}
+
+.fondo-gris {
+  background-color: #263238;
+}
+
+.options {
+  text-align: center !important;
+  color: #1568ce;
+  margin-right: 40%;
+  margin-left: 40%;
+  margin-bottom: 1%;
+}
+
+.options:hover {
+  color: #1568ce;
+}
