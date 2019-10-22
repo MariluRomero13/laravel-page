@@ -1,0 +1,114 @@
+extends ../layouts/layout.pug
+block title 
+    title Comprar Adobe Photoshop | El mejor software de edición de fotos, imágenes y diseño
+
+block content
+    header 
+        div(class="navbar menu-space-index menu-index" role="navigation" aria-label="main navigation")
+                div(class="navbar-brand")
+                    a(class="navbar-item" href="#")
+                        img(src="http://127.0.0.1:8000/images/logo_photo.png" width="25" height="35")
+                        span(class="navbar-item color-text-logo") ADOBE PHOTOSHOP
+
+                div(id="navbarBasicExample" class="navbar-menu")
+                    div(class="navbar-start")
+                        a(class="navbar-item color-options-menu") Novedades
+                        a(class="navbar-item color-options-menu") Formación y asistencia técnica
+                        a(class="navbar-item color-options-menu") Versión de prueba gratuita
+                        div(class="navbar-item")
+                                a(class="button-menu") Comprar ahora
+
+    section 
+        div(class="fondo")
+            h1(class="title-index")
+                b Rediseña la realidad.
+            p(class="text-index-1").
+                Si puedes imaginarlo, puedes hacerlo gracias a Photoshop, el mejor software de diseño gráfico y tratamiento de imágenes 
+                del mundo. Puedes crear y mejora fotografías, ilustraciones e imágenes en 3D. Diseña sitios web y aplicaciones para dispositivos móviles. Edita videos, simula cuadros reales y mucho más. Todo lo que necesitas para llevar a cabo cualquier idea.
+            div(class="fondo-1")
+                button(class="button is-primary boton-redondo modal-button" data-target="#video" aria-haspopup="true"): i(class="fas fa-play")
+                div(class="modal" id="video")
+                    div(class="modal-background")
+                    div(class="modal-content" style="width:70%; height:90%;")
+                        div(class="box")
+                           figure(class="image is-16by9")
+                                iframe(class="has-ratio" width="640" height="360" src="https://www.youtube.com/watch?v=WzspTroCibM&list=PLD8AMy73ZVxX2qSsYeuG0CuDusi_oBNeO" frameborder="0" allowfullscreen)
+                        button(class="modal-close is-large" aria-label="close")
+
+            h1(class="title-index-1") Consigue Photoshop como parte de Adobe Creative Cloud.
+            a(class="button-elegir") Elegir un plan
+        
+        div(class="fondo-2")
+            h1(class="title-content-1") El mundo creativo funciona con Photoshop
+            p(class="text-content-1") Millones de diseñadores, fotógrafos y artistas de todo el mundo emplean Photoshop para hacer posible lo imposible.
+
+            div(class="columns is-mobile container is-fluid")
+                div(class="column")
+                    img(src="http://127.0.0.1:8000/images/bees.jpg")
+                    p(style="color: white;") "Packaging" (Embalaje), de Angelina Pischikova
+                
+                div(class="column") 
+                   div(style="padding-top: 15%; padding-bottom: 15%;")
+                    h1(class="title-content-2") Diseñado para que cualquiera pueda diseñar cualquier cosa.
+                    p(class="text-content-2").
+                        De afiches a empaquetado, de banners básicos a sitios web magníficos, 
+                        de logotipos inolvidables a iconos llamativos: 
+                        Photoshop hace que el mundo creativo siga volteando. 
+                        Hasta los principiantes pueden crear cosas asombrosas gracias a las herramientas intuitivas y 
+                        las plantillas que son tan fáciles de usar.
+
+            div(class="columns is-mobile container is-fluid" style="margin-top: 9%;")
+                div(class="column") 
+                    div(style="padding-top: 15%; padding-bottom: 15%;")
+                        h1(class="title-content-2") No solo hagas fotos, haz algo sorprendente.
+                        p(class="text-content-2").
+                            Nuestro software de diseño gráfico ofrece un conjunto completo de herramientas de fotografía profesional 
+                            para convertir tus instantáneas en obras de arte, 
+                            independientemente de si pretendes hacer ediciones corrientes o transformaciones totales. Ajusta, recorta, 
+                            elimina objetos, retoca y repara fotografías antiguas. 
+                            Juega con los colores, efectos y mucho más para convertir lo corriente en algo extraordinario.
+
+                div(class="column")
+                    img(src="http://127.0.0.1:8000/images/sky.jpg")
+                    p(style="color: white;") "All above the sky" (Sobrevolando el cielo), de Erik Johansson
+
+
+            div(class="columns is-mobile container is-fluid" style="margin-top: 9%; padding-bottom: 9%;")
+                div(class="column")
+                    img(src="http://127.0.0.1:8000/images/pincel.jpg")
+                    p(style="color: white;") "Hand Lettering"(Letras a mano), de Adrian Meadows
+                
+                div(class="column") 
+                   div(style="padding-top: 15%; padding-bottom: 15%;")
+                    h1(class="title-content-2") Diseñado para que cualquiera pueda diseñar cualquier cosa.
+                    p(class="text-content-2").
+                        Dibuja y pinta todo lo que se te ocurra con herramientas especialmente diseñadas para ilustradores. 
+                        Pinta en patrones perfectamente simétricos. 
+                        Consigue aspectos de gran calidad con trazos suaves. Además, crea con lápices, 
+                        bolígrafos, marcadores y pinceles que parecen de verdad, 
+                        incluidos más de 1000 del célebre ilustrador Kyle T. Webster.
+
+        div(class="ipad-fondo")
+            div(class="columns")
+                div(class="column")
+                    p(class="ipad-text") No es Photoshop para iPad.
+                    p(class="ipad-text-2") Es Photoshop en iPad.
+                    div
+                        p(class="ipad-text-3").
+                            Emplea capas, pinceles y otras herramientas de 
+                            Photoshop para tus creaciones 
+                            allá donde te llegue la inspiración. Próximamente en 2019.
+                        a(href="#" class="enlace") Más información ›
+        
+        div(class="fondo-gris")
+            h1(class="title-content-2") Descubre las nuevas funciones.
+            p(class="text-content-2").
+                        Photoshop nunca deja de mejorar gracias a las nuevas funciones que se publican de manera regular. 
+                        Y con tu pago a Creative Cloud, las recibirás en cuanto vean la luz. 
+                        Estas son algunas de las últimas actualizaciones.
+                        
+            a(class="options") Ver todas las nuevas funciones ›
+               
+
+            
+               
