@@ -27,7 +27,7 @@
 }
 
 .fondo {
-  background-image: url('http://proyecto-disenoweb.com:8000/images/fondo_azul.jpg');
+  background-image: url('http://127.0.0.1:8000/images/fondo_azul.jpg');
   width: 100%;
   height: 100%;
   padding-bottom: 3%;
@@ -62,7 +62,7 @@
   text-transform: none;
 }
 .fondo-1 {
-  background-image: url('http://proyecto-disenoweb.com:8000/images/fondo_cabeza.jpg');
+  background-image: url('http://127.0.0.1:8000/images/fondo_cabeza.jpg');
   min-height: 450px;
   min-width: 200px;
   margin-left: 19%;

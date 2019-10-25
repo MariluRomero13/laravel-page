@@ -26,3 +26,7 @@ Route::get('/index', function () {
 Route::get('/login', function () {
     return view('page.login');
 });
+
+Route::get('/whats-new', function(){
+    return view('page.whats-new');
+});
