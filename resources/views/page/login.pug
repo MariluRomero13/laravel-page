@@ -2,7 +2,6 @@
 html(lang="en")
 
     head
-    img(class="img-responsive" href="http://127.0.0.1:8000/images/mount.jpg")
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
@@ -15,24 +14,58 @@ html(lang="en")
     link(rel="stylesheet" href="http://127.0.0.1:8000/css/styles.css")
     
     body
-        section(class="hero is-big is-fullheight has-bg-img")
-        div(class="hero-head")
-          div(class="container level-right")
-            div(class="box box-padding")
-              div(class="container is-fluid")
-                br
-                br
-                p(class="title") Inicio de Sesión
-                p<small>¿Eres un nuevo usuario? <a href="">Crear una cuenta<a><small>
-                br
-                div(class="field")
-                  label(class="label") <small><small><small>Direccion de correo electrónico<small><small><small>
-                  div(class="control")
-                    input(class="input no-border" type="text")
-                br
-                div(class="button is-pulled-right is-rounded is-gg") Continuar
-                br
-                div(class="is-divider" data-content="O")
+    section(class="hero is-fullheight is-mobile img-responsive")
+      div(class="hero-body is-mobile") 
+        div(class="container is-mobile")
+          div(class="columns is-desktop")
+            div(class="column is-half is-6-mobile is-3-desktop is-6-tablet is-offset-0-tablet is-offset-0-mobile is-offset-1 hh")
+              div(class="hero")
+                div(class="container c-h")
+                  div(class="hero-body")
+                    div(class="hero is-mobile m-r")
+                      div(class="hero-head")
+                        article(class="media")
+                          figure(class="image is-32x32 media-left")
+                            img(src="http://127.0.0.1:8000/images/Adobe.png")
+                          div(class="media-content")
+                            div(class="content")
+                              p(class="c-m") Adobe
+                      div(clas="hero-body")
+                        p(class="c-w ") Inicia sesión o crea una cuenta
+
+            div(class="column is-5 is-mobile is-offset-2 is-offset-0-mobile is-3-mobile")
+              div(class="container")
+                div(class="box")
+                  div(class="container is-fluid ")
+                    div(class="columns is-mobile")
+                      div(class="column is-full")  
+                        div(class="row is-full m-t" class="title") Inicio de Sesión
+                        div(class="row is-full m-m") ¿Eres un nuevo usuario? <a href=""> Crear una cuenta<a>
+                        div(class="field")
+                        label(class="label") 
+                          div(class="row is-full m-s") Dirección de correo electrónico
+                          div(class="control row is-full")
+                            input(class="input no-border" type="text")
+                        div(class="row is full")
+                        div(class="button is-pulled-right is-rounded is-gg") Continuar
+                    hr 
+                    div(class="columns")
+                     div(class="column")
+                      dic(class="container text-is-centered")
+                        div(class="row is-full")
+                          a(class="button is-google is-rounded is-medium is-fullwidth")
+				  		              span(class="icon")
+					  		              i(class="fab fa-google")
+						                span(class="b-f") Continuar con Google
+                    div(class="columns")
+                      div(class="column")
+                        a(class="button is-facebook is-rounded is-fullwidth is-medium b-f")
+						              span(class="icon")
+							              i(class="fab fa-facebook")
+						              span Continuar con Facebook
+
+
+      
                 
 
 
