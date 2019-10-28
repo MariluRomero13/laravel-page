@@ -1,0 +1,247 @@
+extends ../layouts/layout.pug
+
+
+    block title
+        title Funciones nuevas y mejoradas | Última versión de Photoshop
+
+block content
+    header(id="page-header")
+        nav(id="title-bar" class="navbar" rol="navigation" aria-label="main navigation")
+            div(class="navbar-brand")
+                div(class="columns")
+                    div(class="column is-half" id="page-name")
+                        h1 Novedades de Photoshop
+                    div(class="column is-half")
+                        div(class="field has-addons")
+                            p(class="control")
+                                input(class="input" type="text" placeholder="Busca Asistencia de Photoshop")
+                            p(class="control")
+                                button(class="button") 
+                                    i(class="fas fa-search" aria-hidden="true")
+
+
+    div(class="container is-fluid")
+        div(class="columns is-mobile")
+                div(class="column is-10 is offset-one-quarter")
+                    nav(class="breadcrumb" aria-labels="breadcrumb")
+                        ul
+                            li 
+                                a(href) Adobe Photoshop Guía del Usuario
+                            li 
+                                a(href) Introduccion al Photoshop
+                            li
+                                div(class="select is-small")
+                                    select()
+                                        option Seleccionar un articulo:
+                                        option Creación de documentos
+                                        option Photoshop | Preguntas frecuentes
+                                        option Requisitos del sistema de Photoshop
+                                        option Migración de ajustes, acciones y ajustes preestablecidos
+                                        option Introducción a Photoshop
+                                        option Migrar acciones
+
+    div(class="columns")
+        div(class="column is-10 is-offset-1")
+            div(class="bd-main")
+                div(class="columns")
+                    div(class="column is-two-thirds") 
+                        p Primera columna
+                        div(class="bd-side-background")
+                            div(class="bd-main-container container")
+                                div(class="bd-duo")
+                                    div(class="bd-lead" style="")
+                                        div(class="page-description") Novedades de la última version de Photoshop
+                                        div(class="imageandtext-image imageandtext-image-83")
+                                            div
+                                                div(class="to-helppx-image-resize")
+                                                    img(src="http://127.0.0.1:8000/images/logo_photo.png" class="cq-dd-image")
+                                        div(class="imageandtext-text imageandtext-text-83")
+                                            div
+                                                div(class="text")
+                                                    p La versión de octubre de 2018 de Photoshop (versión 20.0) incluye nuevas e increíbles funciones para diseñadores, fotógrafos digitales e ilustradores. Continúe leyendo para obtener una introducción rápida de estas funciones. También encontrará vínculos a los recursos que ofrecen más información.
+                                        br
+                                        div(class="note parbase section")
+                                            div(class="help-note")
+                                                p
+                                                    span(class="help-note-title")"Nota:"
+                                                ul
+                                                    li 
+                                                        em Con la nueva función Actualización automática, ahora las aplicaciones de Creative Cloud se actualizan automáticamente cuando haya una nueva versión disponible. Puede gestionar las preferencias de actualización mediante la aplicación de escritorio de Creative Cloud. Más información.
+                                                    li 
+                                                        em Si está actualizando a partir de una versión anterior de Photoshop, consulte nuestras sugerencias y los factores que debe tener en cuenta.
+                                        div(class="header header-top")
+                                            h2 Herramienta Marco para enmascarar de forma fácil
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                p Enmascare imágenes fácilmente colocándolas en marcos. Con la herramienta Marco (K) puede crear rápidamente marcos de marcador de posición rectangulares o elípticos. También puede convertir cualquier forma o texto en marcos y rellenarlo con imágenes.
+                                        div(class="image parbase section")
+                                            div(class="image-wrapper")
+                                                div(class="to-helpx-image-resize")
+                                                    img(src="http://127.0.0.1:8000/images/lentesfeos.png")
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                p Para colocar una imagen en un marco, basta con arrastrar un recurso de Adobe Stock o un recurso de las bibliotecas del panel Bibliotecas o de su disco local. La imagen se escala automáticamente para ajustarse al marco. El contenido se coloca en marcos siempre como objeto inteligente para que pueda escalarse de forma no destructiva.
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                p Para obtener más información, consulte Colocación de imágenes en marcos.
+                                        div(class="header parbase section")
+                                            div(class="header header-top")
+                                                h2(id="new-content-aware-fill") Nuevo diseño de Relleno según el contenido
+                                                p(class="header-description") Con funciones de Adobe Sensei
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                p El nuevo y dedicado espacio de trabajo Relleno según el contenido le ofrece una experiencia de edición interactiva para lograr resultados de relleno inmejorables. Ahora puede elegir qué pixeles de origen utilizar y girar, escalar y reflejar gracias a la tecnología de Adobe Sensei. También puede obtener al momento una previsualización en alta resolución de los cambios y guardar el resultado en una nueva capa.
+                                        div(class="image parbase section")
+                                            div(class="image-wrapper")
+                                                div(class="to-helpx-image-resize")
+                                                    img(src="http://127.0.0.1:8000/images/content-aware-fill.png" class="cq-dd-image")
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                p Para iniciar el espacio de trabajo Relleno segun el contenido:
+                                                ol
+                                                    li Abra una imagen en Photoshop. Con cualquier herramienta de selección, cree una selección inicial del área que quiere rellenar.
+                                                        br
+                                                    li En la barra de menus, seleccione <span class="uicontrol">Edición &gt; Relleno según el contenido</span>
+                                                div En el espacio de trabajo Relleno según el contenido, la ventana del documento muestra el área de muestreo predeterminada como una máscara de superposición encima de la imagen. Puede utilizar las herramientas del panel Herramientas (a la izquierda de la pantalla) para modificar el área de muestreo y la selección inicial del área de relleno. En el panel Relleno según el contenido (a la derecha de la pantalla), puede especificar las opciones de muestreo, la configuración de relleno y la configuración de salida para obtener el resultado de relleno que desee en la imagen. A medida que haga cambios, el panel Vista previa muestra al momento una previsualización del resultado en alta resolución.
+                                                    br
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                <p>Para obtener más información, consulte <a href="/mx/photoshop/using/content-aware-fill.html" target="_blank"><strong>Quitar objetos de las fotografías con el espacio de trabajo Relleno según el contenido</strong></a>.</p>
+                                        div(class="header parbase section")
+                                            div(class="header header-top")
+                                                h2(id="Nuevomodomultideshacer") Nuevo modo multideshacer
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                p Ahora puede utilizar Control + Z (Win) o Comando + Z (Mac) para deshacer varios pasos en el documento de Photoshop, al igual que en otras aplicaciones de Creative Cloud. Este nuevo modo multideshacer está activado de forma predeterminada.
+                                        div(class="image parbase section")
+                                            div(class="image-wrapper")
+                                                div(class="to-helpx-image-resize")
+                                                    img(class="cq-dd-image" src="http://127.0.0.1:8000/images/nuevomodomultideshacer.gif")
+                                        div(class="accordion-container parbase section" id="accordion-container-1")
+                                            div()
+                                                a(name="")
+                                            div(class="accordion-item")
+                                                h3(class="accordion-item-title")
+                                                    button(class="accordion-trigger" aria-expanded="false" aria-controls="accordion-container-1-content-1" id="accordion-container-1-trigger-1")
+                                                        span(class="accordion-icon")
+                                                        ¿Cómo vuelvo a los métodos abreviados heredados de deshacer?
+                                                div(class="accordion-item-content" aria-labelledby="accordion-container-1-trigger-1" id="accordion-container-1-content-1")
+                                                    div(class="accordion-item-par item-parsy")
+                                                        div(class="text parbase section")
+                                                            a(name="accordion-item-par_text")
+                                                            div(class="text") 
+                                                                p  
+                                                                    strong (Photoshop)
+                                                                p Para volver al modo deshacer heredado en Photoshop,realice las siguientes acciones
+                                                                ol 
+                                                                    <li>En la barra de menús, seleccione <span class="uicontrol">Edición &gt; Métodos abreviados de teclado</span>.</li>
+                                                                    <li>En el cuadro de diálogo <span class="uicontrol">Métodos abreviados de teclado y menús</span>, seleccione <span class="uicontrol">Utilizar métodos abreviados heredados</span> y haga clic en <span class="uicontrol">OK</span>.</li>
+                                                                    <li>Reinicie Photoshop.</li>
+                                                                p 
+                                                                    strong (Adobe Camera Raw)
+                                                                p Para volver al modo deshacer heredado en Adobe Camera Raw, realice las siguientes acciones: 
+                                                                ol 
+                                                                    <li>En barra de menús de Photoshop, seleccione <span class="uicontrol">Edición &gt; Preferencias &gt; Administración de archivos</span>.</li>
+                                                                    <li>En la sección <span class="uicontrol">Compatibilidad de archivo</span>, haga clic en <span class="uicontrol">Preferencias de Camera Raw</span>.</li>
+                                                                    <li>En el cuadro de diálogo <span class="uicontrol">Preferencias de Camera Raw</span>, seleccione <span class="uicontrol">Utilizar métodos abreviados heredados</span> y haga clic en <span class="uicontrol">OK</span>.</li>
+                                                                    <li>Reinicie Photoshop.</li>
+                                                                ol
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                div El menú Edicion tambien muestra el nombre del paso que se deshará junto a los comandos de deshacer y rehacer. <br> Por ejemplo:  
+                                                    em  Edicion > Deshacer Editar text
+                                                    br
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                <p>Para obtener más información de utilidad relacionada, consulte <strong><a href="/mx/photoshop/using/undo-history.html" target="_blank">Deshacer e historia</a></strong>.</p>
+                                        div(class="header parbase section")  
+                                            div(class="header header-top")
+                                                h2(id="user-experience-improvements") Mejoras de uso
+                                        div(class="header parbase section")
+                                            div(class="header")
+                                                h3(id="hide-reference-point") Punto de referencia oculto de forma predeterminada
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                <p>Al transformar elementos, ahora puede mover fácilmente elementos en el lienzo. El&nbsp;punto de referencia <img src="https://chl-author-preview.corp.adobe.com/content/dam/help/icons/sampler.png"> que apareció mientras transformaba elementos ahora se oculta de forma predeterminada. Puede seleccionar la casilla de verificación <span class="uicontrol">Activar punto de referencia</span> en la barra de opciones si quiere que aparezca el punto de referencia.</p>
+                                        div(class="image parbase section")
+                                            div(class="image-wrapper")
+                                                div(class="to-helpx-image-resize")        
+                                                    img(src="http://127.0.0.1:8000/images/Reference-point-hidden-by-default_workspace.png" class="cq-dd-image")
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                <p>Para obtener más información, consulte <a href="/mx/photoshop/using/transforming-objects.html?cq_ck=1537620946885#set_or_move_the_reference_point_for_a_transformation" target="_blank"><strong>Definición o desplazamiento del punto de referencia de una transformación</strong></a>.</p>
+                                        div(class="header parbase section")
+                                            div(class="header")
+                                                h3(id="double-click-edit-text") Doble click para editar texto
+                                        div(class="text parbase section")
+                                            div(class="text")
+                                                <p>Ahora puede ahora hacer doble clic en una capa de texto con la herramienta Mover para comenzar rápidamente a editar el texto en el documento. Ya no necesita cambiar de herramientas para editar texto. &nbsp;</p>
+                                        div(class="image parbase section")
+                                            div(class="image-wrapper")
+                                                div(class="to-helpx-image-resize")
+                                                    img(src="http://127.0.0.1:8000/images/double-click-to-edit-text.png" class="cq-dd-image")
+
+                    div(class="column")
+                        p Segunda columna
+                        aside(class="bd-side")
+                            nav(id="anchors" class="bd-anchors- is-active is-pinned6")
+                                    p(class="bd-anchors-title") En esta página
+                                    ul(class="bd-anchors-list")
+                                        li(class="") 
+                                            a(href="") Herramientas Marco para enmascarar de forma fácil
+                                        li(class="") 
+                                            a(href="") Nuevo diseño de Relleno según contenido
+                                        li(class="") 
+                                            a(href="") Nuevo modo multideshacer
+                                        li(class="") 
+                                            a(href="") Mejoras de uso
+                                        li(class="") 
+                                            a(href="") Previsualizacion dinamica del modo de fusion
+                                        li(class="") 
+                                            a(href="") Modo de simetría
+                                        li(class="") 
+                                            a(href="") Rueda de colores para la seleccion de colores 
+                                        li(class="") 
+                                            a(href="") Pantalla de inicio 
+                                        li(class="") 
+                                            a(href="") Aprendizaje mejorado en la aplicacion
+                                        li(class="") 
+                                            a(href="") Funciones mas solicitadas por el cliente 
+                                        li(class="") 
+                                            a(href="") Preferencia para aumentar el tamaño de la interfaz de usuario 
+                                        li(class="") 
+                                            a(href="") Compatibilidad con fuentes del Sur de Asia 
+                                        li(class="") 
+                                            a(href="") Motor de composicion modernizado
+                                        li(class="") 
+                                            a(href="") Camera Raw | Nuevas Funciones
+                                        li(class="") 
+                                            a(href="") ¿Que ha cambiado?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+                    
+
+    
+    
+
+            
+
+

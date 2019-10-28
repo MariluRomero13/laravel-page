@@ -11,5 +11,22 @@
 |
 */
 
-Route::get('/', 'ViewController@main');
-Route::get('/login', 'ViewController@login');
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/layout', function () {
+    return view('layouts.layout');
+});
+
+Route::get('/index', function () {
+    return view('page.index');
+});
+
+Route::get('/login', function () {
+    return view('page.login');
+});
+
+Route::get('/whats-new', function(){
+    return view('page.whats-new');
+});
