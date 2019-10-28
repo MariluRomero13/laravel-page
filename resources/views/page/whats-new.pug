@@ -1,8 +1,10 @@
-extends ../layouts/layout.pug
+extends ../layouts/layout-page.pug
 
+block title
+    title Funciones nuevas y mejoradas | Última versión de Photoshop
 
-    block title
-        title Funciones nuevas y mejoradas | Última versión de Photoshop
+block styles
+    link(rel="stylesheet" src="http://127.0.0.1:8000/css/whats-new.css")
 
 block content
     header(id="page-header")
@@ -22,23 +24,23 @@ block content
 
     div(class="container is-fluid")
         div(class="columns is-mobile")
-                div(class="column is-10 is offset-one-quarter")
-                    nav(class="breadcrumb" aria-labels="breadcrumb")
-                        ul
-                            li 
-                                a(href) Adobe Photoshop Guía del Usuario
-                            li 
-                                a(href) Introduccion al Photoshop
-                            li
-                                div(class="select is-small")
-                                    select()
-                                        option Seleccionar un articulo:
-                                        option Creación de documentos
-                                        option Photoshop | Preguntas frecuentes
-                                        option Requisitos del sistema de Photoshop
-                                        option Migración de ajustes, acciones y ajustes preestablecidos
-                                        option Introducción a Photoshop
-                                        option Migrar acciones
+            div(class="column is-10 is offset-one-quarter")
+                nav(class="breadcrumb" aria-labels="breadcrumb")
+                    ul
+                        li 
+                            a(href) Adobe Photoshop Guía del Usuario
+                        li 
+                            a(href) Introduccion al Photoshop
+                        li
+                            div(class="select is-small")
+                                select()
+                                    option Seleccionar un articulo:
+                                    option Creación de documentos
+                                    option Photoshop | Preguntas frecuentes
+                                    option Requisitos del sistema de Photoshop
+                                    option Migración de ajustes, acciones y ajustes preestablecidos
+                                    option Introducción a Photoshop
+                                    option Migrar acciones
 
     div(class="columns")
         div(class="column is-10 is-offset-1")
