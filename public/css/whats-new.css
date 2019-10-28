@@ -100,3 +100,41 @@ p {
     margin: 10px 0;
     overflow-wrap: break-word;
 }
+
+.accordion-container {
+    width: 100%;
+}
+
+.accordion-item {
+    margin: 8px 0;
+}
+
+h3.accordion-item-title {
+    margin: 0;
+}
+
+.accordion-item-title {
+    font-size: 16px;
+    color: #333333;
+    line-height: 24px;
+    padding: 5px 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+h3, div[class^="column-width-"] h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 22px 0 18px 0;
+}
+
+.accordion-item-content {
+    display: none;
+    padding-bottom: 5px;
+    padding-left: 24px;
+}
+
+ol li {
+    padding-left: 2px;
+    margin: 6px 0;
+}
