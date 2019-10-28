@@ -204,7 +204,7 @@
 }
 
 .fondo-gris {
-  background-color: #263238;
+  background-color: #1e1e1e;
 }
 
 .options {
@@ -212,9 +212,169 @@
   color: #1568ce;
   margin-right: 40%;
   margin-left: 40%;
-  margin-bottom: 1%;
 }
 
 .options:hover {
   color: #1568ce;
+}
+
+.title-content-3 {
+  text-align: center; 
+  padding-right: 4%; 
+  padding-left: 4%; 
+  font-size: 35px; 
+  padding-top: 1%; 
+  color: white;
+  font-weight: 300;
+  padding-top: 3%;
+}
+
+.text-content-3 {
+  text-align: center;
+  padding-right: 11.5%; 
+  padding-left: 11.5%; 
+  color: white; 
+  font-size: 16px; 
+  font-weight: 400; 
+  line-height: 1.5; 
+  font-style: normal; 
+  letter-spacing: 0; 
+  text-transform: none;
+}
+
+.space-1 {
+  padding-top: 15%; 
+  padding-bottom: 15%;
+}
+
+.space-2 {
+  margin-top: 3%;
+}
+
+.space-3 {
+  margin-left: 20%;
+}
+
+.space-4 {
+  margin-right: 20%;
+}
+.div-image {
+  text-align: center;
+}
+
+.space-5 {
+  margin-top: 3%; 
+  padding-bottom: 7%;
+}
+
+.p-title {
+  text-align: center; 
+  color: white; 
+  font-weight: 600;
+}
+
+.p-text {
+  text-align: center; 
+  color: white;
+}
+
+.size-image {
+  width: 80%; 
+  height: auto;
+}
+
+.title-content-2 {
+  text-align: center; 
+  font-size: 30px; 
+  padding-top: 2%; 
+  color: white;
+  font-weight: 600;
+
+}
+
+.text-4 {
+  text-align: center; 
+  color: white; 
+  margin-top: 1.5%; 
+  font-size: 12px; 
+  font-weight: 600;
+}
+
+.enlace-2 {
+  margin-top: 2%;;
+  color: #1568ce;
+  padding-left: 45%;
+  padding-right: 45%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 2%;
+}
+
+.enlace-2:hover {
+  color: #1568ce;
+}
+
+.fondo-house {
+  margin-top: 3%;
+  text-align: center;
+  padding-bottom: 14%;
+  padding-top: 14%;
+  background-image: url("http://proyecto-disenoweb.com:8000/images/house.jpg");
+}
+
+.big-text{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.button-information {
+  padding: 0 12px;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 700;
+  background-color: transparent;
+  color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 16px;
+  border-color: white;
+  transition: background-color .1s ease,box-shadow .1s ease;
+  margin-left: 45%; 
+  margin-right: 45%; 
+  padding-top: .5%; 
+  padding-bottom: .5%; 
+  margin-bottom: 3%;
+}
+
+.button-information:hover {
+    color:  black;
+    background-color: white;
+    border-color: white;
+}
+
+.fondo-azul {
+  text-align: center;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 5%;
+  background-image: url("http://proyecto-disenoweb.com:8000/images/fondo.jpg");
+}
+
+.title-content-4 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0;
+  padding-top: 4%;
+  color: gainsboro;
+  padding-bottom: 3%;
+}
+
+.big-text-2{
+  font-size: 35px;
+  font-weight: 800;
+  color: white;
+  margin-top: 2%;
 }
