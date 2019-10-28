@@ -20,4 +20,9 @@ class ViewController extends Controller
     {
         return view('page.whats-new');
     }
+
+    public function formacionAsistencia()
+    {
+        return view('page.formacion_y_asistencia');
+    }
 }
