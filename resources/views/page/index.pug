@@ -1,0 +1,26 @@
+extends ../layouts/layout-page.pug
+block title 
+    title Introducción a Photoshop
+block styles
+     link(rel="stylesheet" href="http://127.0.0.1:8000/css/index.css")
+
+block content
+    header
+        include ../layouts/sub-menu.pug
+        div(class="columns is-desktop barra-negra")
+            div(class="column is-6")
+                h1(class="page-title") Introducción a Photoshop
+            div(class="column is-6")
+                div(class="field has-addons has-addons-right")
+                    p(class="control")
+                        input(class="input is-medium" type="text" placeholder="Buscar en Asistencia de Adobe")
+                    p(class="control")
+                        button(class="button is-medium") 
+                            i(class="fas fa-search")
+
+    div(class="contenido")
+        div(class="page-description") Siga estos pasos para ponerse en marcha con Adobe Photoshop.
+        h2(class="text-descargar") Cómo descargar e instalar Photoshop
+
+
+

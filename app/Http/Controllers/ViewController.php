@@ -25,4 +25,9 @@ class ViewController extends Controller
     {
         return view('page.formacion_y_asistencia');
     }
+
+    public function index()
+    {
+        return view('page.index');
+    }
 }

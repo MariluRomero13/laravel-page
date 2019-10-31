@@ -11,8 +11,12 @@
 .menu-section {
     font-weight: 650;
     font-size: 14px;
+    color: #6b6b6b;
 }
-.title-p
+.menu-section:hover {
+  color: #1473e6  !important;
+}
+.title-p 
 {
     color: #2d2d2d !important;
     font-weight: 600;

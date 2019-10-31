@@ -6,22 +6,7 @@ block styles
 
 block content
     header 
-        div(class="navbar navbar-FA navbar-space-FA" role="navigation" aria-label="main navigation")
-                div(class="navbar-brand")
-                    a(class="navbar-item" href="#")
-                        img(src="http://127.0.0.1:8000/images/logo_photo.png" width="25" height="35")
-                        span(class="navbar-item color-text-logo-FA") ADOBE PHOTOSHOP
-
-                div(class="navbar-menu")
-                    div(class="navbar-start")
-                        a(class="navbar-item color-options-menu-FA") Aprendizaje y asistencia
-                        a(class="navbar-item color-options-menu-FA") Introducción 
-                        a(class="navbar-item color-options-menu-FA") Guía del usuario
-                        a(class="navbar-item color-options-menu-FA") Tutoriales
-                        a(class="navbar-item color-options-menu-FA") Prueba gratuita
-                        div(class="navbar-item")
-                                a(class="button-menu") Comprar ahora
-    
+        include ../layouts/sub-menu.pug
         div(class="navbar-buscador-FA")
             div(class="columns container is-fluid")
                 div(class="column")
@@ -33,12 +18,10 @@ block content
                         p(class="control")
                             button(class="button is-medium") 
                                 i(class="fas fa-search")
-        
+
         div(class="background-navbar-info-FA")
             p(class="texto-informes-FA") Infórmese sobre las 
                 a(href="#") novedades de Photoshop
-            
-
         //section(class="hero" style="background-color: #F8F8F8;")
             div(class="hero-body")
                 div(class="container")
