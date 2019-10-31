@@ -2,6 +2,7 @@
 .menu-space {
     padding-top: 1%;
     padding-bottom: 1%;
+    z-index: 100;
 }
 .spaces {
     padding-left: 8%;
