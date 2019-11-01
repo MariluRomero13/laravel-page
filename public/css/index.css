@@ -34,6 +34,15 @@
     padding-right: 70px;
 }
 
+.text-content {
+    overflow: hidden;
+    color: #333 !important;
+    font-size: 15px;
+    font-weight: 450;
+    padding-right: 15%;
+    padding-bottom: 8%;
+}
+
 .text-descargar {
     font-size: 2rem;
     line-height: 1em;
@@ -46,18 +55,116 @@
     color: #333;
 }
 
+.enlaces {
+    color: #333;
+    font-weight: 600;
+}
+
+.space-a {
+    padding-bottom: 5%;
+}
+
+.enlaces-info {
+    font-weight: 600;
+    color: #1473e6;
+}
+
+.enlaces-info:hover {
+    font-weight: 600;
+    color: #1473e6;
+    text-decoration: underline;
+}
+
+.barra-gris{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #f7f7f7;
+}
+
+.texto-barra-gris{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #2D2D2D;
+}
+
+.espacio-barra-gris {
+    margin-top: 1%; 
+    margin-bottom: 4%;
+}
+
 @media only screen and (max-width: 1015px) {
   .contenido {
-    margin-top: 4%; 
-  } 
+        margin-top: 4%; 
+    } 
   .page-description {
-    font-size: 18px;
-  }
+        font-size: 18px;
+    }
   .page-title {
-    font-size: 1.5rem
-  }
+        font-size: 1.5rem
+    }
 
   .text-descargar {
       font-size: 24px;
-  }
+    }
+  .text-content {
+        padding-right: 0%;
+    }   
+}
+
+.text-card {
+    margin: 0;
+    font-size: 14px;
+    color:
+    #333333;
+    font-weight: bold;
+    line-height: 18px;
+    height: 54px;
+    overflow: hidden;
+}
+
+.space-between-word {
+    margin-right: 3%;
+}
+
+.margenes {
+    margin-top: 6% !important;
+    margin-bottom: 9% !important;
+}
+
+.text-content-info {
+    overflow: hidden;
+    color: #333 !important;
+    font-size: 15px;
+    font-weight: 450;
+    padding-right: 20%;
+}
+
+.titulos-ayuda {
+    font-weight: 600;
+    font-size: 22px; 
+    color: #333; 
+    margin-top: 1.5%; 
+    margin-bottom: 2.5%;
+}
+
+.espacio-contenido {
+    padding-bottom: 3% !important;
+}
+
+.espacio-contenido-2 {
+    padding-bottom: 10% !important;
+}
+
+@media only screen and (max-width: 758px) {
+    .text-descargar {
+      font-size: 24px;
+    }
+    .text-content {
+        padding-right: 0%;
+    }   
+    .text-content-info {
+        padding-right: 0%;
+    }
 }

@@ -1,0 +1,14 @@
+.footer-FA {
+    background-color: #202020;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.texto-sub-footer-FA{
+    font-size: 11px;
+    line-height: 20px;
+    color: white;
+}
