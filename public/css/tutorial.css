@@ -21,10 +21,9 @@
 
 .tutorial-description {
     margin: 20px 0;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 32px;
-    color: 
-    #666;
+    color: #666;
 }
 
 .espacio {
@@ -33,71 +32,158 @@
     margin-top: 3%;
 }
 
-.download-assets-section {
-    border-top: 1px solid #a9a9a9;
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #333;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 1%;
+  color: white;
 }
 
-.download-assets-section.open .download-assets-title {
-    border-color: transparent;
+.stepNumber {
+    margin: 30px 0 0 0;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    padding-top: 24px;
+    color: black;
+    overflow-wrap: normal;
 }
 
-.download-assets-section .download-assets-title {
-    font-size: 22px;
-    line-height: 24px;
-    padding: 10px 0 10px;
-    margin: 0;
-    color: #333333;
-    cursor: pointer;
-    text-transform: uppercase;
-    border-bottom: 1px solid
-        #a9a9a9;
-        border-bottom-color: rgb(169, 169, 169);
-        -moz-transition: border-color 0.4s;
-        -o-transition: border-color 0.4s;
-        -webkit-transition: border-color 0.4s;
-        transition: border-color 0.4s;
-}
-.download-assets-section .download-assets-title {
-    font-size: 22px;
-    line-height: 24px;
-    color: #333333;
-    cursor: pointer;
-    text-transform: uppercase;
-}
-
-.download-assets-section .download-assets-buttons {
-    border-bottom: 1px solid #a9a9a9;
-    padding: 6px 0 0 28px;
-}
-
-
-.download-asset-container {
-    margin-bottom: 20px;
-}
-
-.download-asset-container .download-button-container {
-    min-width: 134px;
+.fondo-flores {
+    background-image: url("http://proyecto-disenoweb.com:8000/images/flores.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 27%;
+    padding-bottom: 27%;
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
-    margin-right: 7px;
-    display: inline-block;
-    vertical-align: middle;
 }
 
-.download-asset-container .download-button-description {
-    display: inline-block;
-    vertical-align: middle;
+.fondo-trabajo {
+    background-image: url("http://proyecto-disenoweb.com:8000/images/trabajo.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 27%;
+    padding-bottom: 27%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
 }
 
-.download-asset-container .download-button-description a {
+.fondo-zoom {
+    background-image: url("http://proyecto-disenoweb.com:8000/images/zoom.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 27%;
+    padding-bottom: 27%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.fondo-florero {
+    background-image: url("http://proyecto-disenoweb.com:8000/images/florero.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 27%;
+    padding-bottom: 27%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.fondo-flores-moradas {
+    background-image: url("http://proyecto-disenoweb.com:8000/images/flores-moradas.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 27%;
+    padding-bottom: 27%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.size-fuente {
+    font-size: 20px; 
+    color: black;
+}
+
+.espacio-videos {
+    margin-bottom: 10%;
+}
+
+.espacio-videos-2 {
+    margin-bottom: 5%;
+}
+
+.titulo-video {
+    font-weight: 600; 
+    font-size: 22px;
+}
+
+.lista-video {
+    list-style-type: disc; 
+    padding-left: 22px;
+}
+
+.elementos-videos {
+    font-size: 20px; 
+    margin-bottom: 1.5%; 
+}
+
+.siguiente {
+    font-weight: 500; 
     font-size: 20px;
+}
+
+.siguiente > a:hover {
+    color:#1473e6;
+    text-decoration: underline;
+}
+
+.credits-container {
+
+    width: 100%;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-top: 1px solid #a9a9a9;
+    border-bottom: 1px solid#a9a9a9;
     line-height: 30px;
+}
+
+.credits-container div.credits-publish-date {
+    width: 100%;
+    display: block;
+}
+
+.publish-date {
     color: #333333;
+    font-weight: 600;
 }
 
-.download-asset-container a, .download-asset-container a:hover {
-    text-decoration: none !important;
+.autor {
+    font-weight: 600; 
+    color: #a9a9a9;
+}
+.autor > a:hover {
+    color:#1473e6;
+    text-decoration: underline;
 }
 
-elemento {
-    display: none;
+.space-autor {
+    margin-top: 4%; 
+    margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 768px) {
+    .espacio {
+        padding-right: 5%; 
+        padding-left: 5%; 
+        margin-top: 3%;
+    }
 }

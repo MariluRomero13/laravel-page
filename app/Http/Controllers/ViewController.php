@@ -40,4 +40,9 @@ class ViewController extends Controller
     {
         return view('page.prueba_gratuita');
     }
+    
+    public function download()
+    {
+        return view('page.downloadPhotoshop');
+    }
 }
