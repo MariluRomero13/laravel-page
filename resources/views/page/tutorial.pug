@@ -19,14 +19,223 @@ block content
                             i(class="fas fa-search")
     
     div(class="espacio")
-        div(class="tutorial-description").
-            Te damos la bienvenida a los tutoriales de introducción a Photoshop, con los que aprenderás a 
-            utilizar las herramientas y las técnicas básicas de Adobe Photoshop CC. En este tutorial 
-            te familiarizarás con el área de trabajo de Photoshop y aprenderás a abrir y guardar imágenes, 
-            a aumentarlas y reducirlas con el zoom y a deshacer los errores. 
-        hr(class="is-divider")
+        div(class="columns")
+            div(class="column")
+                div(class="tutorial-description").
+                    Te damos la bienvenida a los tutoriales de introducción a Photoshop, con los que aprenderás a 
+                    utilizar las herramientas y las técnicas básicas de Adobe Photoshop CC. En este tutorial 
+                    te familiarizarás con el área de trabajo de Photoshop y aprenderás a abrir y guardar imágenes, 
+                    a aumentarlas y reducirlas con el zoom y a deshacer los errores. 
+                hr(class="is-divider")
+        div(class="columns")
+            div(class="column") 
+                p select
+                hr(class="is-divider")    
+        div(class="columns")
+            div(class="column")
+                span(class="dot") 1
+                span(class="stepNumber") Abrir imágenes
+                div(style="margin-top: 2%;")
+                    span(class="size-fuente") Abre imágenes existentes o crea otras nuevas.
+        div(class="columns")
+            div(class="column" style="margin-bottom: 3%;")
+                div(class="fondo-flores")
+                    button(class="button is-info  modal-button" data-target="#video" aria-haspopup="true"): i(class="fas fa-play")
+                    div(class="modal" id="video")
+                        div(class="modal-background")
+                        div(class="modal-content" style="width:70%; height:90%;")
+                            div(class="box")
+                            figure(class="image is-16by9")
+                                    iframe(class="has-ratio" width="640" height="360" src="http://proyecto-disenoweb.com:8000/videos/photoshop.mp4" frameborder="0" allowfullscreen)
+                            button(class="modal-close is-large" aria-label="close")
+        div(class="espacio-videos")
+            p: strong(class="titulo-video") En este vídeo has aprendido a abrir y crear una imagen.
+            ul(class="lista-video")
+                li(class="elementos-videos") 
+                    | En la barra de menús, selecciona 
+                    strong() Archivo &gt; Abrir 
+                    | para abrir imágenes existentes.
+                li(class="elementos-videos")
+                    | En la barra de menús, selecciona 
+                    strong() Archivo &gt; Nuevo 
+                    | para crear una imagen nueva desde cero. Selecciona un ajuste preestablecido de documento. Puedes personalizar los ajustes preestablecidos introduciendo los valores que prefieras en campos como Anchura y Altura.
         
-        
-        
+        div(class="columns")
+            div(class="column")
+                span(class="dot") 2
+                span(class="stepNumber") Introducción al área de trabajo 
+                div(style="margin-top: 2%;")
+                    span(class="size-fuente") Familiarízate con el área de trabajo.
 
+        div(class="columns")
+            div(class="column" style="margin-bottom: 3%;")
+                div(class="fondo-trabajo")
+                    button(class="button is-info  modal-button" data-target="#trabajo" aria-haspopup="true"): i(class="fas fa-play")
+                    div(class="modal" id="trabajo")
+                        div(class="modal-background")
+                        div(class="modal-content" style="width:70%; height:90%;")
+                            div(class="box")
+                            figure(class="image is-16by9")
+                                    iframe(class="has-ratio" width="640" height="360" src="http://proyecto-disenoweb.com:8000/videos/photoshop.mp4" frameborder="0" allowfullscreen)
+                            button(class="modal-close is-large" aria-label="close")
+        div(class="espacio-videos")
+            p: strong(class="titulo-video") En este vídeo has aprendido a utilizar la interfaz de Photoshop.
+            ul(class="lista-video")
+                li(class="elementos-videos") 
+                    | La 
+                    strong() barra de menús, 
+                    | en la parte superior de la ventana, muestra los menús Archivo, Edición, Imagen y otros que te permiten acceder a gran variedad de comandos, ajustes y paneles.
+                li(class="elementos-videos")
+                    | La 
+                    strong() barra de opciones, 
+                    | que se encuentra debajo de la barra de menús, muestra las opciones de la herramienta con la que estés trabajando en un momento concreto.
+                li(class="elementos-videos")
+                    | El 
+                    strong() panel Herramientas, 
+                    | a la izquierda, contiene herramientas para editar imágenes y crear ilustraciones. Las herramientas similares se agrupan juntas. Puedes acceder a un grupo de herramientas relacionadas haciendo clic en una herramienta del panel y manteniéndola pulsada.
+                li(class="elementos-videos")
+                    | Los paneles están situados a la derecha y, entre ellos, se encuentran 
+                    strong() Color, Capas, Propiedades, 
+                    | que contienen una gran cantidad de controles para trabajar en las imágenes. Puedes ver la lista completa de paneles en el menú Ventana.
+                li(class="elementos-videos")
+                    | La 
+                    strong() ventana de documento, 
+                    | que es el espacio del centro, muestra el archivo en el que estás trabajando en ese momento. Cuando hay varios documentos abiertos, estos se muestran en pestañas en la parte superior de la ventana de documento.
+                li(class="elementos-videos")
+                    | Para cerrar una imagen, selecciona 
+                    strong() Archivo > Cerrar.
 
+        div(class="columns")
+            div(class="column")
+                span(class="dot") 3
+                span(class="stepNumber") Zoom y desplazamiento  
+                div(style="margin-top: 2%;")
+                    span(class="size-fuente") Modifica la visualización de una imagen.
+
+        div(class="columns")
+            div(class="column" style="margin-bottom: 3%;")
+                div(class="fondo-zoom")
+                    button(class="button is-info  modal-button" data-target="#zoom" aria-haspopup="true"): i(class="fas fa-play")
+                    div(class="modal" id="zoom")
+                        div(class="modal-background")
+                        div(class="modal-content" style="width:70%; height:90%;")
+                            div(class="box")
+                            figure(class="image is-16by9")
+                                    iframe(class="has-ratio" width="640" height="360" src="http://proyecto-disenoweb.com:8000/videos/photoshop.mp4" frameborder="0" allowfullscreen)
+                            button(class="modal-close is-large" aria-label="close")
+        div(class="espacio-videos")
+            p: strong(class="titulo-video") En este vídeo has aprendido a aumentar y reducir una imagen y a desplazarte por ella.
+            ul(class="lista-video")
+                li(class="elementos-videos") 
+                    | La 
+                    strong() herramienta Zoom 
+                    | se encuentra en el panel Herramientas. Cambia del zoom de aumento al zoom de reducción en la barra de opciones.
+                li(class="elementos-videos")
+                    | La 
+                    strong() herramienta Mano 
+                    | también se encuentra en el panel Herramientas y te permite desplazarte por imágenes grandes o aumentadas.
+
+        div(class="columns")
+            div(class="column")
+                span(class="dot") 4
+                span(class="stepNumber") Deshacer un comando  
+                div(style="margin-top: 2%;")
+                    span(class="size-fuente") Deshaz uno o varios pasos y utiliza el panel Historia.
+
+        div(class="columns")
+            div(class="column" style="margin-bottom: 3%;")
+                div(class="fondo-florero")
+                    button(class="button is-info  modal-button" data-target="#florero" aria-haspopup="true"): i(class="fas fa-play")
+                    div(class="modal" id="florero")
+                        div(class="modal-background")
+                        div(class="modal-content" style="width:70%; height:90%;")
+                            div(class="box")
+                            figure(class="image is-16by9")
+                                    iframe(class="has-ratio" width="640" height="360" src="http://proyecto-disenoweb.com:8000/videos/photoshop.mp4" frameborder="0" allowfullscreen)
+                            button(class="modal-close is-large" aria-label="close")
+        div(class="espacio-videos")
+            p: strong(class="titulo-video") En este vídeo has aprendido a deshacer acciones.
+            ul(class="lista-video")
+                li(class="elementos-videos") 
+                    | Para deshacer la última acción que has llevado a cabo, selecciona  
+                    strong() Edición > Deshacer  
+                    | o pulsa Control + Z en Windows o Command + Z en macOS.
+                li(class="elementos-videos")
+                    | Para rehacer la última acción que has llevado a cabo, selecciona  
+                    strong() Edición > Rehacer  
+                    | o, de nuevo, pulsa Control + Z en Windows o Command + Z en macOS.
+                li(class="elementos-videos")
+                    | Para deshacer varios pasos, selecciona 
+                    strong() Edición > Paso atrás 
+                    | varias veces o selecciona un paso en el panel Historia.
+
+        div(class="columns")
+            div(class="column")
+                span(class="dot") 5
+                span(class="stepNumber") Guardar el trabajo realizado   
+                div(style="margin-top: 2%;")
+                    span(class="size-fuente") Utiliza los comandos de guardado.
+
+        div(class="columns")
+            div(class="column" style="margin-bottom: 3%;")
+                div(class="fondo-flores-moradas")
+                    button(class="button is-info  modal-button" data-target="#flores-moradas" aria-haspopup="true"): i(class="fas fa-play")
+                    div(class="modal" id="flores-moradas")
+                        div(class="modal-background")
+                        div(class="modal-content" style="width:70%; height:90%;")
+                            div(class="box")
+                            figure(class="image is-16by9")
+                                    iframe(class="has-ratio" width="640" height="360" src="http://proyecto-disenoweb.com:8000/videos/photoshop.mp4" frameborder="0" allowfullscreen)
+                            button(class="modal-close is-large" aria-label="close")
+        div(class="espacio-videos-2")
+            p: strong(class="titulo-video") En este vídeo has aprendido a guardar una imagen.
+            ul(class="lista-video")
+                li(class="elementos-videos") 
+                    | Selecciona 
+                    strong() Archivo > Guardar o Archivo > Guardar como.  
+                li(class="elementos-videos").
+                    Cuando se guarda una imagen en formato de Photoshop (.psd), 
+                    se conservan las capas, el texto y otras propiedades editables de Photoshop. 
+                    Es preferible que guardes las imágenes en formato 
+                    PSD cuando todavía estás trabajando en ellas
+                    
+                li(class="elementos-videos").
+                    Guardar en formatos como JPEG (.jpg) o PNG (.png) 
+                    permite almacenar una imagen estándar que se puede compartir, 
+                    abrir en otros programas y publicar en la Web. 
+                    Cuando termines de editar la imagen, guarda una copia también en uno de estos formatos.
+        
+        div(class="columns")
+            div(class="column" style="text-align: center;")
+                strong(class="siguiente") 
+                    |Siguiente: 
+                    a() Cambiar el tamaño de la imagen
+            
+        div(class="columns")
+            div(class="column")
+                div(class="credits-container")
+                    div(class="credits-publish-date")
+                        span(class="publish-date") 19 de agosto de 2019
+                    div(class="space-author")
+                        div(class="autor")
+                            strong
+                            | Narración: 
+                            a() Jan Kabili
+                        div(class="autor")
+                            strong() 
+                            | Fotografía: 
+                            a() Martin Hoang
+                        div(class="autor")
+                            strong() 
+                            | Flores: 
+                            a() Kiana Underwood
+                        div(class="autor")
+                            strong() 
+                            | Xilografía: 
+                            a() Matt Ritchie
+
+    div(style="margin-top: 5%;")
+        include ../layouts/layout-info.pug
+
+block script
+    script(src="http://127.0.0.1:8000/js/main.js")  
