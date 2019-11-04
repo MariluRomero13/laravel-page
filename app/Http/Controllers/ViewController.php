@@ -35,4 +35,9 @@ class ViewController extends Controller
     {
         return view('page.tutorial');
     }
+
+    public function pruebaGratuita()
+    {
+        return view('page.prueba_gratuita');
+    }
 }
