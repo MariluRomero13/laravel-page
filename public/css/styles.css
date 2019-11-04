@@ -1,7 +1,7 @@
 /*Navbar classes*/
 .menu-space {
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: .5%;
+    padding-bottom: .5%;
     z-index: 100;
 }
 .spaces {
@@ -197,4 +197,13 @@ html,body {
 
 .copyright:hover {
     color: white;
+}
+
+
+.world-color {
+  color: #999;
+}
+
+.world-color.footer {
+  color: white;
 }

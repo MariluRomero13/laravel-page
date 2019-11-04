@@ -30,4 +30,9 @@ class ViewController extends Controller
     {
         return view('page.index');
     }
+
+    public function tutorial()
+    {
+        return view('page.tutorial');
+    }
 }

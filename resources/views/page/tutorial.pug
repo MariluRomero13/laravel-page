@@ -1,0 +1,32 @@
+extends ../layouts/layout-page.pug
+block title 
+    title Conceptos y principios básicos de Photoshop | Tutoriales de Adobe Photoshop 
+block styles
+     link(rel="stylesheet" href="http://127.0.0.1:8000/css/tutorial.css")
+
+block content
+    header
+        include ../layouts/sub-menu.pug
+        div(class="columns is-desktop barra-negra")
+            div(class="column is-6")
+                h1(class="page-title") Conceptos básicos de Photoshop
+            div(class="column is-6")
+                div(class="field has-addons has-addons-right")
+                    p(class="control")
+                        input(class="input is-medium" type="text" placeholder="Buscar en Asistencia de Adobe")
+                    p(class="control")
+                        button(class="button is-medium") 
+                            i(class="fas fa-search")
+    
+    div(class="espacio")
+        div(class="tutorial-description").
+            Te damos la bienvenida a los tutoriales de introducción a Photoshop, con los que aprenderás a 
+            utilizar las herramientas y las técnicas básicas de Adobe Photoshop CC. En este tutorial 
+            te familiarizarás con el área de trabajo de Photoshop y aprenderás a abrir y guardar imágenes, 
+            a aumentarlas y reducirlas con el zoom y a deshacer los errores. 
+        hr(class="is-divider")
+        
+        
+        
+
+

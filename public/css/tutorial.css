@@ -1,0 +1,103 @@
+.page-title  {
+    margin: 0;
+    padding: 4px 48px 6px 0;
+    font-size: 36px;
+    line-height: 1.15;
+    font-weight: 500;
+    text-align: left;
+    color:  white;
+    background-repeat: no-repeat;
+    background-size: 32px auto;
+    background-position: 0 10px;
+}
+
+.barra-negra {
+    background: #202020; 
+    padding-top: 1%; 
+    padding-bottom: -.2%; 
+    padding-left: 70px; 
+    padding-right: 70px;
+}
+
+.tutorial-description {
+    margin: 20px 0;
+    font-size: 25px;
+    line-height: 32px;
+    color: 
+    #666;
+}
+
+.espacio {
+    padding-right: 17%; 
+    padding-left: 17%; 
+    margin-top: 3%;
+}
+
+.download-assets-section {
+    border-top: 1px solid #a9a9a9;
+}
+
+.download-assets-section.open .download-assets-title {
+    border-color: transparent;
+}
+
+.download-assets-section .download-assets-title {
+    font-size: 22px;
+    line-height: 24px;
+    padding: 10px 0 10px;
+    margin: 0;
+    color: #333333;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-bottom: 1px solid
+        #a9a9a9;
+        border-bottom-color: rgb(169, 169, 169);
+        -moz-transition: border-color 0.4s;
+        -o-transition: border-color 0.4s;
+        -webkit-transition: border-color 0.4s;
+        transition: border-color 0.4s;
+}
+.download-assets-section .download-assets-title {
+    font-size: 22px;
+    line-height: 24px;
+    color: #333333;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.download-assets-section .download-assets-buttons {
+    border-bottom: 1px solid #a9a9a9;
+    padding: 6px 0 0 28px;
+}
+
+
+.download-asset-container {
+    margin-bottom: 20px;
+}
+
+.download-asset-container .download-button-container {
+    min-width: 134px;
+    text-align: center;
+    margin-right: 7px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.download-asset-container .download-button-description {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.download-asset-container .download-button-description a {
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.download-asset-container a, .download-asset-container a:hover {
+    text-decoration: none !important;
+}
+
+elemento {
+    display: none;
+}

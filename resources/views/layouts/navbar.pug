@@ -4,13 +4,13 @@ nav(class="navbar menu-space" role="navigation" aria-label="main navigation")
             img(src="http://127.0.0.1:8000/images/logo.png" width="90" height="120")
 
 
-        a(role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample")
+        a(role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="main-items" id="main-button")
             span(aria-hidden="true")
             span(aria-hidden="true")
             span(aria-hidden="true")
 
 
-    div(id="navbarBasicExample" class="navbar-menu")
+    div(id="main-items" class="navbar-menu")
         div(class="navbar-start spaces")
             div(class="navbar-item has-dropdown is-hoverable")
                 a(class="navbar-link is-arrowless menu-section") Creatividad y diseño
@@ -277,3 +277,5 @@ nav(class="navbar menu-space" role="navigation" aria-label="main navigation")
 
                 a(class="login-button navbar-item menu-section" href="/login" style="color: #2d2d2d;") Iniciar Sesión
 
+script(src="http://127.0.0.1:8000/js/navbar.js")
+    

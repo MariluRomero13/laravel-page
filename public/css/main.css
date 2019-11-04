@@ -31,6 +31,7 @@
   width: 100%;
   height: 100%;
   padding-bottom: 3%;
+  text-align: center;
 }
 
 .title-index {
@@ -41,7 +42,6 @@
 }
 
 .title-index-1 {
-  text-align: center; 
   font-size: 25px; 
   padding-top: 1%; 
   color: white;
@@ -69,6 +69,7 @@
   margin-right: 19%;
   padding-top: 13%;
   padding-left: 26%;
+  text-align: center;
 }
 
 .boton-redondo {
@@ -84,27 +85,6 @@
   line-height:32px;
   text-transform: uppercase;
   float:left;
-}
-
-.button-elegir {
-  padding: 0 12px;
-  font-size: 14px;
-  line-height: 32px;
-  font-weight: 700;
-  background-color: #1473e6;
-  color: #fff;
-  border-radius: 16px;
-  transition: background-color .1s ease,box-shadow .1s ease;
-  margin-left: 45%; 
-  margin-right: 45%; 
-  padding-top: .5%; 
-  padding-bottom: .5%; 
-  margin-bottom: 3%
-}
-
-.button-elegir:hover {
-    color:  white;
-    background-color: #1568ce;
 }
 
 .fondo-2 {
@@ -162,40 +142,28 @@
 
 .ipad-fondo {
   background-image: url("http://proyecto-disenoweb.com:8000/images/ipad.jpg");
-  height: 100%;
+  height: 70% !important;
   width: 100%;
   padding-top: 11%;
   padding-bottom: 11%;
 }
 
-.ipad-text {
-  padding-right: 8%; 
-  padding-left: 8%; 
+.ipad-text { 
   font-size: 22px; 
   padding-top: 1%; 
   color: white;
   font-weight: 300;
-}
-.ipad-text-2 {
-  padding-right: 8%; 
-  padding-left: 10%; 
-  font-size: 22px;  
-  color: white;
-  font-weight: 300;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .ipad-text-3 {
   text-align: center; 
   color: white;
-  padding-left: 5%;
-  padding-right: 68%;
 }
 
 .enlace {
   color: #1568ce;
-  padding-left: 13%;
-  padding-right: 68%;
-  text-align: center;
   font-weight: 600;
 }
 
@@ -208,10 +176,7 @@
 }
 
 .options {
-  text-align: center !important;
   color: #1568ce;
-  margin-right: 40%;
-  margin-left: 40%;
 }
 
 .options:hover {
@@ -244,7 +209,6 @@
 
 .space-1 {
   padding-top: 15%; 
-  padding-bottom: 15%;
 }
 
 .space-2 {
@@ -259,6 +223,10 @@
   margin-right: 20%;
 }
 .div-image {
+  text-align: center;
+}
+
+.div-image-2 {
   text-align: center;
 }
 
@@ -277,6 +245,21 @@
   text-align: center; 
   color: white;
 }
+.p-text-info {
+  text-align: center; 
+  color: white;
+}
+
+.p-title-2 {
+  text-align: center; 
+  color: white; 
+  font-weight: 600;
+}
+
+.p-text-2 {
+  text-align: center; 
+  color: white;
+}
 
 .size-image {
   width: 80%; 
@@ -284,7 +267,6 @@
 }
 
 .title-content-2 {
-  text-align: center; 
   font-size: 30px; 
   padding-top: 2%; 
   color: white;
@@ -293,7 +275,6 @@
 }
 
 .text-4 {
-  text-align: center; 
   color: white; 
   margin-top: 1.5%; 
   font-size: 12px; 
@@ -303,9 +284,6 @@
 .enlace-2 {
   margin-top: 2%;;
   color: #1568ce;
-  padding-left: 45%;
-  padding-right: 45%;
-  text-align: center;
   font-weight: 600;
   font-size: 13px;
   margin-bottom: 2%;
@@ -340,9 +318,7 @@
   border-style: solid;
   border-radius: 16px;
   border-color: white;
-  transition: background-color .1s ease,box-shadow .1s ease;
-  margin-left: 45%; 
-  margin-right: 45%; 
+  transition: background-color .1s ease,box-shadow .1s ease; 
   padding-top: .5%; 
   padding-bottom: .5%; 
   margin-bottom: 3%;
@@ -377,4 +353,180 @@
   font-weight: 800;
   color: white;
   margin-top: 2%;
+}
+
+.div-azul-mobile {
+  background-color: #023142;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 33%;
+  padding-left: 33%;
+}
+
+.p-title-3 {
+  color: white; 
+  font-weight: 600;
+}
+
+.p-text-3 {
+  color: white;
+}
+
+.espacio-compra {
+  margin-top: 10%;
+}
+
+.fondo-negro-2 {
+  background: black; 
+  padding-top: 3% ; 
+  text-align: center;
+}
+
+.espacio-3 {
+  margin-top: 8%; 
+  padding-bottom: 4%;
+}
+
+.telefono {
+  color: white; 
+  font-size: 17px; 
+  font-weight: 700; 
+  margin-right: 1%;
+}
+
+.phone-number {
+  color: #1568ce; 
+  font-size: 17px; 
+  font-weight: 700;
+}
+
+.fondo-negro-4 {
+  background: black; 
+  padding-left: 2%;
+}
+
+.ultimo-enlace {
+  color: grey; 
+  font-size: 15px;
+}
+.ultimo-enlace:hover {
+  color: white;
+}
+@media only screen and (max-width: 900px) {
+  .title-index-1 {
+   padding-left: 10%;
+   padding-right: 10%;
+  }
+
+  .fondo-1 {
+    min-height: 450px;
+    min-width: 100px;
+    padding-top: 20%;
+    padding-left: 26%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .div-image {
+    padding-right: 20%;
+  }
+  .p-title {
+    padding-right: 20%;
+  }
+  .p-text {
+    padding-right: 20%;
+  }
+  .div-image-2 {
+    padding-left: 30%;
+  }
+  .p-title-2 {
+    padding-left: 30%;
+  }
+
+  .p-text-2 {
+    padding-left: 30%;
+  }
+  .espacio-compra {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .text-content-1 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .space-1 {
+    padding-top: 5%; 
+  }
+}
+
+@media only screen and (max-width: 644px) {
+  .div-azul-mobile {
+    padding-right: 25%;
+    padding-left: 25%;;
+  }
+  .fondo-1 {
+    min-height: 450px;
+    min-width: 100px;
+    padding-top: 25%;
+    padding-left: 25%;
+  }
+  .title-content-1 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+}
+
+@media only screen and (max-width: 420px) {
+  .div-azul-mobile {
+    padding-right: 15%;
+    padding-left: 15%;;
+  }
+  .fondo-1 {
+    min-height: 300px;
+    min-width: 200px;
+    padding-top: 25%;
+    padding-left: 17%;
+  }
+
+  .ipad-text-3 {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .text-4 {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .p-text-info {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+}
+
+@media only screen and (max-width: 1080px) {
+  .menu-index {
+    padding-left: 40%;
+    padding-right: 40%;
+  }
+}
+
+
+.button-mobile-menu {
+  color: white;
+}
+
+.button-mobile-menu:hover {
+  color: white;
+}
+
+.texto-fotos {
+  color: white; 
+  text-align: left; 
+  padding-left: 2%;
 }
