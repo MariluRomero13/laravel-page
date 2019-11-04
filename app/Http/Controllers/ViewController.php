@@ -35,4 +35,8 @@ class ViewController extends Controller
     {
         return view('page.tutorial');
     }
+    public function download()
+    {
+        return view('page.downloadPhotoshop');
+    }
 }
