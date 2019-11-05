@@ -5,25 +5,25 @@ block styles
     link(rel="stylesheet" href="http://127.0.0.1:8000/css/main.css")
     
 block content
-    header(class="is-hidden-mobile") 
+    header(class="is-hidden-mobile")
         div(class="navbar menu-space-index menu-index" role="navigation" aria-label="main navigation")
                 div(class="navbar-brand")
-                    a(class="navbar-item" href="#")
+                    a(class="navbar-item" href="/")
                         img(src="http://127.0.0.1:8000/images/logo_photo.png" width="25" height="35")
                         span(class="navbar-item color-text-logo") ADOBE PHOTOSHOP
 
                 div(id="navbarBasicExample" class="navbar-menu")
                     div(class="navbar-start")
                         a(class="navbar-item color-options-menu" href="/whats-new") Novedades
-                        a(class="navbar-item color-options-menu" href="/formacion") Formación y asistencia técnica
-                        a(class="navbar-item color-options-menu") Versión de prueba gratuita
+                        a(class="navbar-item color-options-menu" href="/formacion-asistencia") Formación y asistencia técnica
+                        a(class="navbar-item color-options-menu" href="/prueba-gratuita") Versión de prueba gratuita
                         div(class="navbar-item")
                                 a(class="button-menu") Comprar ahora
     
     header(class="is-hidden-tablet")
         nav(class="navbar div-azul-mobile" role="navigation" aria-label="main navigation")
             div(class="navbar-brand")
-                a(class="navbar-item" href="#")
+                a(class="navbar-item" href="/")
                     img(src="http://127.0.0.1:8000/images/logo_photo.png" width="25" height="35")
                     span(class="navbar-item color-text-logo") ADOBE PHOTOSHOP
 
@@ -36,9 +36,9 @@ block content
             div(id="mobile-menu" class="navbar-menu")
                 div(class="navbar-start spaces")
                     div(class="navbar-item has-dropdown is-hoverable")
-                        a(class="navbar-link is-arrowless menu-section") Novedades
-                        a(class="navbar-link is-arrowless menu-section") Formación y asitencia
-                        a(class="navbar-link is-arrowless menu-section") Versión y prueba gratuita
+                        a(class="navbar-link is-arrowless menu-section" href="/whats-new") Novedades
+                        a(class="navbar-link is-arrowless menu-section" href="/formacion-asistencia") Formación y asitencia
+                        a(class="navbar-link is-arrowless menu-section" href="/prueba-gratuita") Versión y prueba gratuita
                         div(class="navbar-item")
                             button(class="button is-info is-rounded") Comprar ahora
                         
