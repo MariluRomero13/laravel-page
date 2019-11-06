@@ -10,3 +10,4 @@ Route::get('/prueba-gratuita', 'ViewController@pruebaGratuita');
 Route::get('/download', 'ViewController@download');
 Route::get('/tutoriales', 'ViewController@tutoriales');
 Route::get('/helpx', 'ViewController@helpx');
+Route::get('/requisitos','ViewController@requisitos');

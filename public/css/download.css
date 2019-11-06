@@ -66,6 +66,7 @@ body{
 p span {
     font-family: adobe-clean,Helvetica Neue,Helvetica,Arial,sans-serif;
     text-align: left;
+    margin-top: 1rem;
 }
 
 .card{
@@ -75,3 +76,16 @@ p span {
 button{
     margin-top: 1rem;
 }
+
+.card{
+    box-shadow: none;
+}
+
+.select{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+body{
+   background-size: 100%;
+}
+

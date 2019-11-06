@@ -55,4 +55,7 @@ class ViewController extends Controller
     {
         return view('page.helpx');
     }
+    public function requisitos(){
+        return view('page.requisitos');
+    }
 }

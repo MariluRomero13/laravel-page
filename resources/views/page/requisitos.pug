@@ -1,0 +1,181 @@
+extends ../layouts/layout-page.pug
+
+block title
+    title Funciones nuevas y mejoradas | Última versión de Photoshop
+
+block styles
+    link(rel="stylesheet" src="http://127.0.0.1:8000/css/requisitos.css")
+
+block content
+    nav(class="navbar is-dark" role="navigation" aria-label="main navigation")
+        div(class="navbar-brand")
+            h1(class="navbar-item") Requisitos del sistema de Photoshop
+        div(class="navbar-end")
+            div(class="navbar-item field has-addons")
+                    p(class="control")
+                        input(class="input" type="text" placeholder="Busca Asistencia de Photoshop")
+                    p(class="control")
+                        button(class="button") 
+                            i(class="fas fa-search" aria-hidden="true")
+    
+    div(class="columns")
+        div(class="column is-6 is-offset-2")
+            div(class="section")
+                p Para ejecutar y utilizar Photoshop , su equipo debe cumplir con las especificaciones técnicas mínimas que se indican a continuación.
+
+                p: strong Aplicable a Versión de noviembre de 2019 (versión 21.0)
+
+                p: strong Requisitos del sistema para versiones anteriores 
+                    a(href="") Requisitos del sistema de Photoshop | Versiones anteriores
+            div(class="section")
+                h1 Requisitos minimos del sistema para Photoshop
+                h2: strong Windows
+                table(class="table is-bordered")
+                    tr(class="thead")
+                        th(class="th")
+                        th(class="th"): strong Requisitos minimo
+                    tr(class="tr")
+                        td Procesador
+                        td Procesador Intel o de AMD con compatibilidad de 64 bits* (2 GHz o mas rapido)
+                    tr(class="tr")
+                        td Sistema operativo
+                        td Microsoft Windows 7 con Service Pack 1 (de 64 bits)* o la actualización de octubre de 2018 de Windows 10** (de 64 bits), versión 1809 o posterior
+                    tr(class="tr")
+                        td RAM
+                        td 2 GB o más (se recomiendan 8 GB)
+                    tr(class="tr")
+                        td Espacio en disco duro
+                        td 3,1 GB o más de espacio disponible en el disco duro para la instalación de 64 bits; se necesita espacio libre adicional durante la instalación (no se puede instalar en un volumen que utilice un sistema de archivos con distinción entre mayúsculas y minúsculas)
+                    tr(class="tr")
+                        td Resolución del monitor
+                        td Pantalla de 1280 x 800 con Escala de IU al 100 %, con color de 16 bits y 512 MB o más de VRAM dedicado; se recomiendan 2 GB***
+                    tr(class="tr")
+                        td Requisitos de la aceleración del procesador de gráficos
+                        td Sistema compatible con OpenGL 2.0
+                    tr(class="tr")
+                        td Internet
+                        td Es preciso disponer de conexión a Internety estar registrado para poder activar el software, validar las suscripciones y acceder a los servicios en línea. †
+                p: i *La versión de 32 bits de Windows ya no es compatible. Para poder seguir utilizando plugins y controladores de 32 bits, deberá usar versiones anteriores de Photoshop:
+                    strong: a Enlaces a los instaladores y las actualizaciones de versiones anteriores.
+                p: i **No compatible con las versiones 1511, 1607, 1703, 1709 ni 1803 de Windows 10.
+                p: i Las funciones 3D se desactivarán si el equipo tiene menos de 512 MB de VRAM
+                p † AVISO A LOS USUARIOS: es preciso estar conectado a Internet, disponer de un Adobe ID y aceptar los términos del acuerdo de licencia para poder activar y usar este producto. Este producto puede integrarse con determinados servicios en línea de Adobe o alojados por terceros y dar acceso a ellos. Los servicios de Adobe están disponibles únicamente para usuarios de 13 años en adelante y exigen la aceptación de condiciones de uso adicionales, así como de la política de privacidad en línea de Adobe (consulte
+                    a  http://www.adobe.com/es/aboutadobe/legal.html ).
+                    |Es posible que las aplicaciones y los servicios no estén disponibles en todos los países o idiomas, y pueden estar sujetos a cambios o cancelaciones sin previo aviso. Pueden aplicarse tasas o tarifas de suscripción adicionales.
+            div(class="section")
+                h2: strong macOS
+                table(class="table is-bordered")
+                    tr(class="thead")
+                        th(class="th")
+                        th(class="th"): strong Requisitos minimo
+                    tr(class="tr")
+                        td Procesador
+                        td Procesador Intel multinúcleo con compatibilidad de 64 bits
+                    tr(class="tr")
+                        td Sistema operativo
+                        td macOS versión 10.13 (High Sierra), macOS versión 10.14 (Mojave), macOS versión 10.15 (Catalina)
+                    tr(class="tr")
+                        td RAM
+                        td 2 GB o más (se recomiendan 8 GB)
+                    tr(class="tr")
+                        td Espacio en disco duro
+                        td 4 GB o más de espacio disponible en el disco duro para la instalación; se necesita espacio libre adicional durante la instalación (no se puede instalar en un volumen que utilice un sistema de archivos con distinción entre mayúsculas y minúsculas)
+                    tr(class="tr")
+                        td Resolución del monitor
+                        td Pantalla de 1280 x 800 con Escala de IU al 100 %, con color de 16 bits y 512 MB o más de VRAM dedicado; se recomiendan 2 GB*
+                    tr(class="tr")
+                        td Requisitos de la aceleración del procesador de gráficos
+                        td Sistema compatible con OpenGL 2.0
+                    tr(class="tr")
+                        td Internet
+                        td Es preciso disponer de conexión a Internety estar registrado para poder activar el software, validar las suscripciones y acceder a los servicios en línea. †
+                p: i *La versión de 32 bits de Windows ya no es compatible. Para poder seguir utilizando plugins y controladores de 32 bits, deberá usar versiones anteriores de Photoshop:
+                    strong: a Enlaces a los instaladores y las actualizaciones de versiones anteriores.
+                p: i **No compatible con las versiones 1511, 1607, 1703, 1709 ni 1803 de Windows 10.
+                p: i Las funciones 3D se desactivarán si el equipo tiene menos de 512 MB de VRAM
+                p † AVISO A LOS USUARIOS: es preciso estar conectado a Internet, disponer de un Adobe ID y aceptar los términos del acuerdo de licencia para poder activar y usar este producto. Este producto puede integrarse con determinados servicios en línea de Adobe o alojados por terceros y dar acceso a ellos. Los servicios de Adobe están disponibles únicamente para usuarios de 13 años en adelante y exigen la aceptación de condiciones de uso adicionales, así como de la política de privacidad en línea de Adobe (consulte
+                    a  http://www.adobe.com/es/aboutadobe/legal.html ).
+                    |Es posible que las aplicaciones y los servicios no estén disponibles en todos los países o idiomas, y pueden estar sujetos a cambios o cancelaciones sin previo aviso. Pueden aplicarse tasas o tarifas de suscripción adicionales.
+            div(class="section")
+                p: h1 Versiones en otros idiomas disponibles para Photoshop
+                p: h2: Strong Windows y macOS
+                p: h3 Photoshop está disponible en los siguientes idiomas:
+
+                div(class="columns")
+                    div(class="column is-half")
+                        p Dansk
+                        p Deutsch
+                        p English
+                        p Español
+                        p Français
+                        p Français*
+                        p עברית*
+                        p Magyar
+                        p Italiano
+                        p Nederlands
+                        p Norsk
+                        p Polski
+                    div(class="column is-half")
+                        p Português (Brasil)
+                        p Suomi
+                        p Svenska
+                        p Türkçe
+                        p Українська
+                        p čeština
+                        p Русский 
+                        p عربي*
+                        p 日本語
+                        p 简体中文
+                        p 繁體中文
+                        p 한국어
+                p: i * Versiones árabe y hebrea compatibles con una versión para Oriente Medio que presenta plena compatibilidad con escrituras de derecha a izquierda, particularidades árabes y hebreas, y una interfaz en inglés. También, la versión francesa (français*) para África del Norte con plena compatibilidad con escrituras de derecha a izquierda y particularidades árabes y hebreas, además de una interfaz en francés.
+            div(class="section")
+                p: h1 Requisitos del procesador de gráficos
+                p: h2: strong Funciones que requieren un procesador gráfico
+                p Un procesador de gráficos compatible (también denominado tarjeta gráfica, tarjeta de vídeo o GPU) le permite obtener un mejor rendimiento de Photoshop. Además, podrá utilizar más funciones de este programa. Además, podrían producirse varios problemas de visualización, rendimiento y bloqueos si el procesador gráfico del ordenador o el controlador son incompatibles con Photoshop.
+                strong Funciones que requieren una GPU
+                p Si el procesador de gráficos no es compatible o su controlador está defectuoso, las siguientes funciones de Photoshop no funcionarán:
+                ul
+                 li 3D
+                 li Pintura al óleo
+                 li Interpretar – Llama, Marco de fotografía y Árbol
+                 li Zoom con arrastre
+                 li Vista de pájaro
+                 li Panorámicas manuales
+                 li Cambio de tamaño de pincel suave
+                strong Funciones que requieren una GPU para obtener aceleración
+                ul
+                 li Mesas de trabajo
+                 li Camera Raw (
+                    a mas informacion )
+                 li Tamaño de imagen - Conservar detalles
+                 li Selección de enfoque
+                 li Galería de efectos Desenfocar - Desenfoque de campo, Desenfocar iris, Cambio de inclinación, Desenfoque de trazado, Desenfoque de giro (aceleración OpenCL)
+                 li Enfoque suavizado (Reducción de ruido – aceleración OpenCL)
+                 li Deformación de perspectiva
+                 li Seleccionar y enmascarar (aceleración OpenCL)
+                
+                 
+
+
+
+
+
+
+
+
+        div(class="column is-2")
+            h3 En esta pagina
+            ul(class="")
+                li(class="") 
+                    a(href="") Requisitos minimos del sistema para Photoshop
+                li(class="") 
+                    a(href="") Versiones en otros idiomas disponibles para Photoshop
+                li(class="") 
+                    a(href="") Requisitos del procesador de graficos
+                li(class="") 
+                    a(href="") Adobe Camera Raw
+            small Se aplica a: 
+                strong Adobe Photoshop
+            small Ultima publicacion: 
+                strong 4 de noviembre de 2019
