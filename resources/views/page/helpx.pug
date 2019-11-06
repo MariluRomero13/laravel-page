@@ -1,7 +1,9 @@
-extends ../layouts/layout.pug
+extends ../layouts/layout-page.pug
 
 block title 
     title Descargar e instalar Photoshop CC
+block styles
+     link(rel="stylesheet" href="http://127.0.0.1:8000/css/helpx.css")
 
 block content
     header 
@@ -230,6 +232,8 @@ block content
                                                 div(class="column")
                                                     label(class="radio")
                                                         input(type="radio" name="foobar") 
-                            
+
+block script
+    script(src="http://127.0.0.1:8000/js/helpx.js")                           
 
 
