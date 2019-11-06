@@ -46,7 +46,13 @@ class ViewController extends Controller
         return view('page.downloadPhotoshop');
     }
 
-    public function tutoriales(){
+    public function tutoriales()
+    {
         return view('page.tutoriales');
+    }
+
+    public function helpx()
+    {
+        return view('page.helpx');
     }
 }
