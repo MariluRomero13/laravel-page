@@ -1,5 +1,6 @@
-<!DOCTYPE html>
 html(lang="en")
+  block title 
+    title Adobe ID
 
     head
     meta(charset="UTF-8")
@@ -12,13 +13,14 @@ html(lang="en")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css")
     link(rel="shortcut icon" href="http://127.0.0.1:8000/images/icon.png")
     link(rel="stylesheet" href="http://127.0.0.1:8000/css/styles.css")
+    link(rel="stylesheet" href="http://127.0.0.1:8000/css/login.css")
     
     body
-    section(class="hero is-fullheight is-mobile img-responsive")
+    section(class="hero is-fullheight is-mobile img-responsive blan")
       div(class="hero-body is-mobile") 
         div(class="container is-mobile")
           div(class="columns is-desktop")
-            div(class="column is-half is-6-mobile is-3-desktop is-6-tablet is-offset-0-tablet is-offset-0-mobile is-offset-1 hh")
+            div(class="column is-half is-6-mobile is-3-desktop is-6-tablet is-offset-0-tablet is-offset-0-mobile is-offset-1 hh non")
               div(class="hero")
                 div(class="container c-h")
                   div(class="hero-body")
@@ -33,12 +35,12 @@ html(lang="en")
                       div(clas="hero-body")
                         p(class="c-w ") Inicia sesión o crea una cuenta
 
-            div(class="column is-5 is-mobile is-offset-2 is-offset-0-mobile is-3-mobile")
-              div(class="container")
+            div(class="column is-5 is-mobile is-offset-2 is-offset-0-mobile is-fullheight-mobile is-3-mobile")
+              div(class="container cont")
                 div(class="box")
-                  div(class="container is-fluid ")
+                  div(class="container is-fluid")
                     div(class="columns is-mobile")
-                      div(class="column is-full")  
+                      div(class="column is-full is-half-mobile")  
                         div(class="row is-full m-t" class="title") Inicio de Sesión
                         div(class="row is-full m-m") ¿Eres un nuevo usuario? <a href=""> Crear una cuenta<a>
                         div(class="field")
@@ -53,10 +55,10 @@ html(lang="en")
                      div(class="column")
                       dic(class="container text-is-centered")
                         div(class="row is-full")
-                          a(class="button is-google is-rounded is-medium is-fullwidth")
+                          a(class="button is-google is-rounded is-medium is-fullwidth b-f")
 				  		              span(class="icon")
 					  		              i(class="fab fa-google")
-						                span(class="b-f") Continuar con Google
+						                span Continuar con Google
                     div(class="columns")
                       div(class="column")
                         a(class="button is-facebook is-rounded is-fullwidth is-medium b-f")

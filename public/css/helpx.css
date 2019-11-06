@@ -1,0 +1,212 @@
+.xmenu-space-index {
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    background-color: whitesmoke;
+}
+
+.xcolor-text-logo {
+    color: black;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.bcolor-text-logo {
+    color: white;
+    font-weight: 710;
+    font-size: 12px;
+}
+.xmenu-index {
+    padding-left: 17%;
+    padding-right: 17%;
+}
+  
+.xcolor-options-menu {
+    color: black !important;
+    font-size: 14px;
+    font-weight: 450;
+}
+.xnavbar-item.color-options-menu:hover {
+    background: rgba(200,200,200,0.3);
+}
+
+.letra {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+}
+
+.font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pd {
+    padding: 2.5rem;
+}
+
+p {
+    font-size: 17px;
+}
+
+.resize {
+    max-width: 699px;
+    max-height: 456px;
+    width: 100%;
+    height: 100%;
+}
+
+.mm {
+    margin-right: 300px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 9rem;
+}
+
+.nsticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    z-index: 30;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bf {
+    font-size: 14px;
+}
+
+.mt {
+    margin-top: 3rem;
+    border-width: 2px;
+    border-style: solid;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.mtt {
+    margin-top: 1rem;
+    border-width: 2px;
+    border-style: solid;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hs {
+    background-color: #202020;
+    padding: 0;
+}
+
+.lf {
+    font-size: small;
+}
+
+.mc {
+    margin-top: 6rem;
+    width: 230px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.ftf {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.ftxf {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 2;
+
+}
+
+.mart {
+    margin-top: 10px;
+}
+
+.mmc {
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+.cr {
+    right: 0;
+}
+
+.htf {
+    font-size: 12px;
+    font-weight: 650;
+}
+
+.hp {
+    padding: auto;
+}
+
+.stick {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 3rem;
+    z-index: 30;
+}
+
+.bl {
+    background-color: #46a0f5;
+    color: white;
+    text-align: center;
+}
+
+.pnf {
+    font-size: 2.2rem;
+    margin-left: 3rem;
+    font-weight: 550;
+}
+
+.cof {
+    margin: auto;
+}
+
+.nh {
+    height: auto;
+}
+
+.ali {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .pnf {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .dis {
+      display: none;
+    }
+  }
+
+.spaf {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.pcpc {
+    margin-top: 7px;
+    margin-bottom: 1px;
+}

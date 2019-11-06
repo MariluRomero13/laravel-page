@@ -20,7 +20,7 @@ Route::get('/layout', function () {
 });
 
 Route::get('/index', function () {
-    return view('page.index');
+    return view('page.main');
 });
 
 Route::get('/login', function () {
@@ -29,4 +29,8 @@ Route::get('/login', function () {
 
 Route::get('/whats-new', function(){
     return view('page.whats-new');
+});
+
+Route::get('/helpx', function(){
+    return view('page.helpx');
 });

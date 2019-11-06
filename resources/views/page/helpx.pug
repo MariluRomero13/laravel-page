@@ -1,0 +1,236 @@
+extends ../layouts/layout.pug
+
+
+block title 
+    title Descargar e instalar Photoshop CC
+
+block content
+    header 
+        div(class="navbar xmenu-space-index xmenu-index font" role="navigation" aria-label="main navigation")
+                div(class="navbar-brand")
+                    a(class="navbar-item" href="#")
+                        img(src="http://127.0.0.1:8000/images/cc.svg" width="50" height="70")
+                        span(class="navbar-item xcolor-text-logo") ADOBE CREATIVE CLOUD
+
+                div(id="navbarBasicExample" class="navbar-menu")
+                    div(class="navbar-start")
+                        a(class="navbar-item xcolor-options-menu") Aprendizaje y Asistencia
+                        a(class="navbar-item xcolor-options-menu") Introducción
+                        a(class="navbar-item xcolor-options-menu") Guía del usuario
+                        a(class="navbar-item xcolor-options-menu") Tutoriales
+                        a(class="navbar-item xcolor-options-menu") Prueba Gratuita
+                        div(class="navbar-item")
+                                a(class="button-menu") Comprar ahora
+
+    section
+        div(class="nsticky font is-mobile")
+            div(class="navbar is-dark nh")
+                div(class="container")
+                    div(class="columns is-desktop")
+                        div(class="column is-7 is-12-touch")
+                            p(class="pnf") Descargar e instalar Photoshop CC
+                        div(class="column is-offset-2 is-12-touch is-offset-1-touch")
+                            div(class="container")
+                                div(class="field has-addons")
+                                    p(class="control")
+                                        input(class="input" type="text" placeholder="Buscar Asistencia de Adobe" style="height:50px; width:400px; font-size:11px; font-weight:bold;")
+                                    p(class="control")
+                                        button(class="button" style="height:50px; width:auto;") 
+                                            span(class="icon is-large")
+                                                i(class="fas fa-2x fa-search")
+            div(class="navbar is-light")
+                div(class="container")
+                    div(class="columns is-mobile")
+                        div(class="column is-6 is-3-desktop ali dis")
+                            a(class="") Adobe Creative Cloud Guía del usuario
+                        div(class="column is-6 is-8-mobile ali is-offset-1-touch")
+                            a(class="ali") Descargar, instalar, configurar y actualizar
+                        div(class="column is-1-touch dis")
+                            div(class="container")
+                                div(class="dropdown is-hoverable pcpc")
+                                    div(class="dropdown-trigger")
+                                        button(class="button" aria-haspopup="true" aria-controls="dropdown-menu")
+                                            span(class="spaf") Seleccionar un artículo:
+                                            span(class="icon is-small")
+                                                i(class="fas fa-angle-down" aria-hidden="true")
+                                    div(class="dropdown-menu" id="dropdown-menu" role="menu")
+                                        div(class="dropdown-content")
+                                            a(class="dropdown-item") Descargar e instalar una version de prueba de Creative Cloud
+                                            a(class="dropdown-item") Actualizar las Aplicaciones de Creative Cloud
+                                            a(class="dropdown-item") Descargar e instalar Photoshop CC
+                                            a(class="dropdown-item") Desinstalación de la aplicación de escritorio de Creative Cloud
+                                            a(class="dropdown-item") Desinstalar o eliminar las aplicaciones de Creative Cloud
+                                            a(class="dropdown-item") Cambiar el idioma de las aplicaciónes de Creative Cloud
+                                            a(class="dropdown-item") Adobe Application Updater
+                                            a(class="dropdown-item") Actualizar las aplicacione de Creative Cloud
+                                            a(class="dropdown-item") Iniciar aplicaciones de Creative Cloud
+                                            a(class="dropdown-item") Espacio de trabajo Inicio
+                                            a(class="dropdown-item") Preguntas frecuentes sobre versiones
+                                            a(class="dropdown-item") Descargar e instalar Light Room 6(licencia de aplicacion única)
+                                            a(class="dropdown-item") Descargar e instalar las aplicaciones de Creative Cloud
+
+
+
+        div(id="here" class="columns is-desktop font")
+            div(class="column is-three-quaraters content")
+                div(class="container is-fluid pd")
+                    p(class="letra") Aprenda a descargar e instalar Photoshop CC o CS6 como parte de su abono a Creative Cloud. Incluye el plan completo, el plan fotográfico y el plan de aplicación única.
+                    h2(id="descargar" class="title is-3") Descargar Photoshop CC
+                    p ¡Bienvenido a Photoshop CC! Independientemente del plan que haya adquirido, ya sea el plan completo, el plan fotográfico o el de aplicación única, el proceso que debe seguir es el mismo. Solo tiene que descargar Photoshop del sitio web de adobe.com/es e instalarlo en su escritorio.
+                    article(class="media")
+                        figure(class="media-left mm is-primary")
+                            p(class="icon is-medium")
+                                i(class="fas fa-lg fa-circle")
+                        div(class="media-content")
+                            div(class="content")
+                                p Visite el catálogo de aplicaciones de Creative Cloud. Busque Photoshop y haga clic en 
+                                    strong Descargar.
+                                p Si no ha iniciado sesión, se le solicitará que lo haga con su Adobe ID y su contraseña. Siga las instrucciones que aparecen en pantalla.
+                                div(class="container is-fluid")
+                                    p(class="image resize")
+                                        img(src="http://127.0.0.1:8000/images/desktop-helpx.jpg")
+                                div(class="box mt")
+                                    p(class="bf") Nota:
+                                    p(class="bf") Si dispone de un abono gratuito de prueba a Creative Cloud, consulte Descargar e instalar una versión de prueba de Creative Cloud.
+                                p ¿Aún no tiene un abono a Creative Cloud ni una versión de prueba? Consulte Introducción a Creative Cloud.
+                    article(class="media")
+                        figure(class="media-left mm is-primary")
+                            p(class="icon is-medium")
+                                i(class="fas fa-lg fa-circle")
+                        div(class="media-content")
+                            div(class="content")
+                                p La aplicación se empezará a descargar.
+                                p Al mismo tiempo, se muestra la aplicación de escritorio de Adobe Creative Cloud y ella es la que gestiona el resto del proceso de instalación. Compruebe el progreso de descarga en la barra de estado que aparece junto al nombre de la aplicación.
+                                div(class="box mtt")
+                                    p(class="bf") Nota:
+                                    p(class="bf") Según la velocidad de la red, es posible que tarde algún tiempo en descargar la aplicación.
+                    article(class="media")
+                        figure(class="media-left mm is-primary")
+                            p(class="icon is-medium")
+                                i(class="fas fa-lg fa-circle")
+                        div(class="media-content")
+                            div(class="content")
+                                p Para iniciar la nueva aplicación, ubique el icono de Photoshop en el panel Apps y haga clic en Abrir.
+                                p También puede iniciar Photoshop del mismo modo que inicia cualquier otra aplicación del equipo. Photoshop se instala en tu equipo en la misma ubicación donde se suelen instalar las aplicaciones, como la carpeta de Archivos de programa (en Windows) o la carpeta de Aplicaciones (en Mac OS).
+                                div(class="box mtt")
+                                    p(class="bf") Nota:
+                                    p(class="bf") ¿Tiene problemas con la primera descarga? Consulte Solución de problemas de descarga e instalación de Creative Cloud.
+                    h2(id="instalar" class="title is-3") Instalar Photoshop CS6
+                    p ¡Puede descargar las versiones anteriores de Photoshop, como CS6, directamente desde la aplicación de escritorio de Creative Cloud. Si quiere, puede tener varias versiones de Photoshop instaladas en el equipo al mismo tiempo.
+                    div(class="box mtt")
+                        p(class="") Nota:
+                        p(class="") Si adquirió una licencia de Photoshop CS6 en el pasado y desea volver a instalar Photoshop CS6 como parte de Creative Suite, consulte Descargar productos CS6.
+                    article(class="media")
+                        figure(class="media-left mm is-primary")
+                            p(class="icon is-medium")
+                                i(class="fas fa-lg fa-circle")
+                        div(class="media-content")
+                            div(class="content")
+                                p Para abrir la aplicación de escritorio de Creative Cloud, haga clic en el icono de Creative Cloud , situado en la barra de tareas (Windows) o en la barra de menús de Apple (Mac OS). Si aún no está seleccionada, haga clic en la ficha Apps de la parte superior de la ventana.
+                    article(class="media")
+                        figure(class="media-left mm is-primary")
+                            p(class="icon is-medium")
+                                i(class="fas fa-lg fa-circle")
+                        div(class="media-content")
+                            div(class="content")
+                                p Busque Photoshop en la lista de apps y, a continuación, haga clic en la flecha próxima a Actualizar o Instalar. A continuación, elija Otras versiones.
+                    article(class="media")
+                        figure(class="media-left mm is-primary")
+                            p(class="icon is-medium")
+                                i(class="fas fa-lg fa-circle")
+                        div(class="media-content")
+                            div(class="content")
+                                p En la lista de versiones, busque CS6. A continuación, haga clic en Instalar.
+                                p Photoshop CS6 se descarga y se instala en el ordenador.
+                                div(class="box mtt")
+                                    p(class="bf") Nota:
+                                    p(class="bf") Las versiones anteriores de los productos no sobrescriben las anteriores. Puede tener dos versiones de la misma aplicación ejecutándose a la vez en su ordenador, excepto Acrobat XI (en Windows) y Acrobat DC. La instalación de estas versiones de Acrobat desinstalarán las otras versiones de dicha aplicación. Para obtener más información, consulte Descargar productos Acrobat.
+                    h2(id="descargar" class="title is-3") Páginas Relacionadas
+                    li
+                        a Actualizar las aplicaciones de Creative Cloud
+                    li
+                        a Actualizar o cambiar un plan de Creative Cloud
+                    li
+                        a Descargar e instalar una versión de prueba de Creative Cloud
+                    li
+                        a Desinstalar o eliminar las aplicaciones de Creative Cloud
+                    li   
+                        a Solucionar problemas de descarga e instalación de Creative Cloud
+            div(class="column is-one-quarter pd")
+                div(class="menu sticky")
+                    p(class="menu-label") EN ESTA PÁGINA
+                    ul(class="menu-list" id="menu")
+                    li
+                        a(href='#descargar') Descargar Photoshop CC
+                    li
+                        a(href='#instalar') Instalar Photoshop CS6
+                    p(style="font-size:x-small;") Se aplica a: Adobe Creative Cloud Adobe Photoshop
+                    p(style="font-size:x-small;") Última publicación: 6 de febrero de 2018
+
+        section(class="hero hs font")
+           div(class="")
+                div(class="columns is-desktop")
+                    div(class="column is-offset-1 mart")
+                        div(class="container")
+                            article(class="media")
+                                figure(class="media-left")
+                                    p(class="image is-32x32")
+                                        img(src="http://127.0.0.1:8000/images/cc.svg")
+                                div(class="media-content")
+                                    div(class="content")
+                                        p(CLASS="bcolor-text-logo") ADOBE CREATIVE CLOUD
+                                            li(class="lf") 
+                                                a Ver todas las aplicaciones
+                                        p
+                                            li(class="lf") 
+                                                a Aprendizaje y Asistencia
+                                            li(class="lf") 
+                                                a Introducción
+                                            li(class="lf") 
+                                                a Guia del usuario
+                                            li(class="lf") 
+                                                a Tutoriales
+                    div(class="column")
+                        div(class="container mc")
+                            article(class="media")
+                                figure(class="media-left")
+                                    p(class="icon is-medium has-text-white")
+                                        i(class="far fa-2x fa-comments")
+                                div(class="media-content")
+                                    div(class="content")
+                                        p(class="ftf") Pregunte a la comunidad
+                                        p(class="ftxf") Publique sus preguntas para que le respondan expertos en la materia
+                                        p(class="ftxf")
+                                            a Preguntar ahora
+
+                    div(class="column")
+                        div(class="container mc")
+                            article(class="media")
+                                figure(class="media-left")
+                                    p(class="icon is-medium has-text-white")
+                                        i(class="fas fa-2x fa-headset")
+                                div(class="media-content")
+                                    div(class="content")
+                                        p(class="ftf") Contacto
+                                        p(class="ftxf") Ayuda en directo con uno de nuestros    consejeros
+                                        p(class="ftxf")
+                                            a Comenzar
+                    div(class="column is-offset-2 cr")
+                        div(class="container mmc")
+                            a(href="#") ^ Volver arriba
+                        section(class="hero bl")
+                            div(class="hero hp stick")
+                                p(class="htf") ¿Le ha servido de ayuda esta página?
+                                    div(class="container is-fluid pr")
+                                        div(class="control")
+                                            div(class="columns")
+                                                div(class="column")
+                                                    label(class="radio")
+                                                        input(type="radio" name="foobar")
+                                                <div class="is-divider-vertical"></div>
+                                                div(class="column")
+                                                    label(class="radio")
+                                                        input(type="radio" name="foobar") 
+                            
+
+
