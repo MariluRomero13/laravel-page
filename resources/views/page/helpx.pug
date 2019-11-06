@@ -1,8 +1,9 @@
-extends ../layouts/layout.pug
-
+extends ../layouts/layout-page.pug
 
 block title 
     title Descargar e instalar Photoshop CC
+block styles
+     link(rel="stylesheet" href="http://127.0.0.1:8000/css/helpx.css")
 
 block content
     header 
@@ -14,11 +15,11 @@ block content
 
                 div(id="navbarBasicExample" class="navbar-menu")
                     div(class="navbar-start")
-                        a(class="navbar-item xcolor-options-menu") Aprendizaje y Asistencia
-                        a(class="navbar-item xcolor-options-menu") Introducción
+                        a(class="navbar-item xcolor-options-menu" href="/formacion-asistencia") Aprendizaje y asistencia
+                        a(class="navbar-item xcolor-options-menu" href="/introduccion-photoshop") Introducción 
                         a(class="navbar-item xcolor-options-menu") Guía del usuario
-                        a(class="navbar-item xcolor-options-menu") Tutoriales
-                        a(class="navbar-item xcolor-options-menu") Prueba Gratuita
+                        a(class="navbar-item xcolor-options-menu" href="/tutoriales") Tutoriales
+                        a(class="navbar-item xcolor-options-menu" href="/prueba-gratuita") Prueba gratuita
                         div(class="navbar-item")
                                 a(class="button-menu") Comprar ahora
 
@@ -231,6 +232,8 @@ block content
                                                 div(class="column")
                                                     label(class="radio")
                                                         input(type="radio" name="foobar") 
-                            
+
+block script
+    script(src="http://127.0.0.1:8000/js/helpx.js")                           
 
 
