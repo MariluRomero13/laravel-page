@@ -31,16 +31,16 @@ class ViewController extends Controller
         return view('page.index');
     }
 
-    public function tutorial()
+    public function tutorialDetalle()
     {
-        return view('page.tutorial');
+        return view('page.tutorial_detalles');
     }
 
     public function pruebaGratuita()
     {
         return view('page.prueba_gratuita');
     }
-    
+
     public function download()
     {
         return view('page.downloadPhotoshop');
