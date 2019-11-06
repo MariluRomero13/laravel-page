@@ -1,0 +1,139 @@
+extends ../layouts/layout-page.pug
+block title 
+    title Tutoriales de Photoshop | Cómo utilizar Photoshop
+block styles
+    link(rel="stylesheet" href="http://127.0.0.1:8000/css/formacion_y_asistencia.css")
+    link(rel="stylesheet" href="http://127.0.0.1:8000/css/tutoriales.css")
+
+block content
+    header 
+        include ../layouts/sub-menu.pug
+        
+        div(class="navbar-buscador-FA")
+            div(class="columns container is-fluid")
+                div(class="column")
+                    p(class="texto-buscador-FA") Tutoriales de Photoshop
+                div(class="column")
+                    div(class="field has-addons has-addons-right")
+                        p(class="control")
+                            input(class="input is-medium" type="text" placeholder="Buscar en Adobe Photoshop")
+                        p(class="control")
+                            button(class="button is-medium") 
+                                i(class="fas fa-search")
+        
+        section(class="hero")
+            div(class="hero-body")
+                div(class="container")
+                    p(class="texto-titulo-t") Crea todo lo que te puedas imaginar
+                    p(class="texto-subtitulo-t") Aprende los conceptos básicos o perfecciona tus habilidades con estos tutoriales diseñados para inspirar.
+        
+        section(class="hero hero-container-t")
+            div(class="hero-body")
+                div(class="container")
+                    p(class="texto-titulo-t2") Primeros pasos con Photoshop
+                    br
+                    div(class="columns hero-card-t")
+                        div(class="column")
+                            div(class="card card-rounded-t tamaño-card tamaño-card")
+                                div(class="card-image")
+                                    img(src="http://127.0.0.1:8000/images/imagen-1-t.jpg")
+                                div(class="card-content")
+                                    div(class="media-content")
+                                        p(class="texto-titulo-card-t") Introducción a Photoshop
+                                        p(class="texto-card-t") Ver, 21 minutos
+                        div(class="column")
+                            div(class="card card-rounded-t tamaño-card")
+                                div(class="card-image")
+                                    img(src="http://127.0.0.1:8000/images/imagen-2-t.jpg")
+                                div(class="card-content")
+                                    div(class="media-content")
+                                        p(class="texto-titulo-card-t") Cambiar el tamaño de la imagen
+                                        p(class="texto-card-t") Ver, 17 minutos
+                        div(class="column")
+                            div(class="card card-rounded-t tamaño-card")
+                                div(class="card-image")
+                                    img(src="http://127.0.0.1:8000/images/imagen-3-t.jpg")
+                                div(class="card-content")
+                                    div(class="media-content")
+                                        p(class="texto-titulo-card-t-2") Uso de capas
+                                        p(class="texto-card-t") Ver, 20 minutos
+                        div(class="column")
+                            div(class="card card-rounded-t tamaño-card")
+                                div(class="card-image")
+                                    img(src="http://127.0.0.1:8000/images/imagen-4-t.jpg")
+                                div(class="card-content")
+                                    div(class="media-content")
+                                        p(class="texto-titulo-card-t") Ajuste de la calidad de imagen
+                                        p(class="texto-card-t") Ver, 16 minutos
+                        div(class="column")
+                            div(class="card card-rounded-t tamaño-card")
+                                div(class="card-image")
+                                    img(src="http://127.0.0.1:8000/images/imagen-5-t.jpg")
+                                div(class="card-content")
+                                    div(class="media-content")
+                                        p(class="texto-titulo-card-t-2") Selecciones
+                                        p(class="texto-card-t") Ver, 14 minutos
+                    div(class="columns hero-card-t")
+                        div(class="column")
+                            div(class="card card-rounded-t tamaño-card")
+                                div(class="card-image")
+                                    img(src="http://127.0.0.1:8000/images/imagen-6-t.jpg")
+                                div(class="card-content")
+                                    div(class="media-content")
+                                        p(class="texto-titulo-card-t-2") Retoque fotográfico
+                                        p(class="texto-card-t") Ver, 10 minutos
+                        div(class="column")
+                            div(class="card card-rounded-t tamaño-card")
+                                div(class="card-image")
+                                    img(src="http://127.0.0.1:8000/images/imagen-7-t.jpg")
+                                div(class="card-content")
+                                    div(class="media-content")
+                                        p(class="texto-titulo-card-t-2") Uso de colores
+                                        p(class="texto-card-t") Ver, 10 minutos
+                        div(class="column")
+                            div(class="card card-rounded-t tamaño-card")
+                                div(class="card-image")
+                                    img(src="http://127.0.0.1:8000/images/imagen-8-t.jpg")
+                                div(class="card-content")
+                                    div(class="media-content")
+                                        p(class="texto-titulo-card-t-2") Añadir textos y formas
+                                        p(class="texto-card-t") Ver, 17 minutos
+                        div(class="column")
+                            div(class="card card-rounded-t tamaño-card")
+                                div(class="card-image")
+                                    img(src="http://127.0.0.1:8000/images/imagen-9-t.jpg")
+                                div(class="card-content")
+                                    div(class="media-content")
+                                        p(class="texto-titulo-card-t") Combinación de imagenes
+                                        p(class="texto-card-t") Ver, 15 minutos
+                        div(class="column")
+                            div(class="card card-rounded-t tamaño-card")
+                                div(class="card-image")
+                                    img(src="http://127.0.0.1:8000/images/imagen-10-t.jpg")
+                                div(class="card-content")
+                                    div(class="media-content")
+                                        p(class="texto-titulo-card-t-2") Aplicación de filtros
+                                        p(class="texto-card-t") Ver, 7 minutos
+        
+        div(class="hero-ayuda space-components-t")
+            p(class="texto-t") ¿Le ha servido de ayuda esta página?
+            div(class="control texto-t")
+                label(class="radio")
+                    input(type="radio" name="answer")
+                    | Si
+                label(class="radio")
+                    input(type="radio" name="answer")
+                    | No 
+
+                                                       
+        
+                    
+       
+                  
+
+
+                  
+                     
+
+                     
+

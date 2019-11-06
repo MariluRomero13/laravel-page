@@ -42,37 +42,9 @@
     background-color: #F8F8F8;
 }
 
-.texto-informes-FA{
-    text-align: center;
-    font-size: 17px;
-    font-weight: 400;
-    color: #2D2D2D;
-}
-
-.texto-cards-FA{
-    text-align: center;
-    font-size: 17px;
-    color: #2D2D2D;
-}
-
-.cards-FA{
-    border-style: solid;
-    border-radius: 12px;
-    border-color: #2D2D2D;
-}
-
-.imagen-card-FA{
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
 a, a:visited {
     color: #1473e6;
     text-decoration: none;
 }
 
-.background-ayuda-FA{
-    width: 80%;
-    padding: 20px;
-    background-color: #F8F8F8;
-}
+

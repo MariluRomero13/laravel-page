@@ -1,14 +1,41 @@
-.footer-FA {
-    background-color: #202020;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+div.logo-sm{
+    display: flex;
+    align-items: center;
 }
 
-.texto-sub-footer-FA{
+p.titulo-sm{
+    color:white;
+    font-weight: 900;
+    font-size: 12px;
+    margin-left: 2%;
+}
+
+.footer-sm {
+    background-color: #202020;
+}
+
+.columnas-espacio-sm {
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+.texto-sub-footer-sm{
     font-size: 11px;
     line-height: 20px;
     color: white;
+}
+
+.texto-titulo-sm{
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    font-weight: 500;
+    margin-left: 4%;
+}
+
+.icono-sm{
+    color: white;
+    font-size: 25px;
 }

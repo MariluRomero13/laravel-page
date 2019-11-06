@@ -1,6 +1,7 @@
 .textos-titulos{
     color: #2D2D2D; 
     font-size: 35px;
+    margin-bottom: 5%;
 }
 
 .space-li {
@@ -15,7 +16,7 @@
 .texto-icons {
     word-wrap: break-word;
     line-height: 14px;
-    font-size: 11px;
+    font-size: 13px;
     color: #333;
     font-weight: bold;
     margin-top: 8px;
@@ -23,10 +24,6 @@
 
 .contenedor{
     list-style: none;
-    /*margin: 0;
-    padding: 0;
-    float: left;
-    height: 92px;*/
 }
 
 .producto-container{
@@ -36,6 +33,49 @@
     margin-right: 10px;
     position: relative;
     height: 92px;
+}
+
+.background-ayuda-FA{
+    width: 100%;
+    padding: 20px;
+    background-color: #F8F8F8;
+}
+
+
+.texto-cards-FA{
+    text-align: center;
+    font-size: 17px;
+    color: #2D2D2D;
+}
+
+.cards-FA{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #2D2D2D;
+}
+
+.imagen-card-FA{
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+
+.texto-FA{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: #2D2D2D;
+}
+
+.texto-subtitulo-FA{
+    font-size:22px; 
+    color: #787878; 
+    margin-top: 2%;
+}
+
+.texto-titulo-FA{
+    font-size:20px; 
+    font-weight: 500;
+    color: black;
 }
 
 

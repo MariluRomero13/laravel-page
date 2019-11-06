@@ -8,3 +8,4 @@ Route::get('/introduccion-photoshop', 'ViewController@index');
 Route::get('/tutorial', 'ViewController@tutorial');
 Route::get('/prueba-gratuita', 'ViewController@pruebaGratuita');
 Route::get('/download','ViewController@download');
+Route::get('/tutoriales','ViewController@tutoriales');
