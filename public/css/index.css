@@ -1,380 +1,170 @@
-/*Index classes*/
-.menu-space-index {
-    padding-top: 1.2%;
-    padding-bottom: 1.2%;
-    background-color: #023142;
-}
-
-.color-text-logo {
-  color: white;
-  font-weight: 900;
-  font-size: 12px;
-}
-
-.menu-index {
-  padding-left: 17%;
-  padding-right: 17%;
-}
-
-.color-options-menu {
-  color: white !important;
-  font-size: 14px;
-  font-weight: 650;
-  
-}
-.navbar-item.color-options-menu:hover {
-  background: rgba(200,200,200,0.3);
-}
-
-.fondo {
-  background-image: url('http://127.0.0.1:8000/images/fondo_azul.jpg');
-  width: 100%;
-  height: 100%;
-  padding-bottom: 3%;
-}
-
-.title-index {
-  text-align: center; 
-  font-size: 40px; 
-  padding-top: 1%; 
-  color: white;
-}
-
-.title-index-1 {
-  text-align: center; 
-  font-size: 25px; 
-  padding-top: 1%; 
-  color: white;
-  font-weight: 600;
-}
-
-.text-index-1 {
-  padding-bottom: 1%; 
-  text-align: center;
-  padding-right: 14%; 
-  padding-left: 14%; 
-  color: white; 
-  font-size: 18px; 
-  font-weight: 400; 
-  line-height: 1.5; 
-  font-style: normal; 
-  letter-spacing: 0; 
-  text-transform: none;
-}
-.fondo-1 {
-  background-image: url('http://127.0.0.1:8000/images/fondo_cabeza.jpg');
-  min-height: 450px;
-  min-width: 200px;
-  margin-left: 19%;
-  margin-right: 19%;
-  padding-top: 13%;
-  padding-left: 26%;
-}
-
-.boton-redondo {
-  width:100px;
-  height:100px;
-  background-color:#1473e6 !important;
-  margin: 5px;
-  padding:10px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  font-size:11px;
-  line-height:32px;
-  text-transform: uppercase;
-  float:left;
-}
-
-.button-elegir {
-  padding: 0 12px;
-  font-size: 14px;
-  line-height: 32px;
-  font-weight: 700;
-  background-color: #1473e6;
-  color: #fff;
-  border-radius: 16px;
-  transition: background-color .1s ease,box-shadow .1s ease;
-  margin-left: 45%; 
-  margin-right: 45%; 
-  padding-top: .5%; 
-  padding-bottom: .5%; 
-  margin-bottom: 3%
-}
-
-.button-elegir:hover {
+.page-title  {
+    margin: 0;
+    padding: 4px 48px 6px 0;
+    font-size: 36px;
+    line-height: 1.15;
+    font-weight: 500;
+    text-align: left;
     color:  white;
-    background-color: #1568ce;
+    background-repeat: no-repeat;
+    background-size: 32px auto;
+    background-position: 0 10px;
 }
 
-.fondo-2 {
-  background: black;
-  padding-top: 4%;
-  width: 100%;
-  height: 100%;
-
+.barra-negra {
+    background: #202020; 
+    padding-top: 1%; 
+    padding-bottom: -.2%; 
+    padding-left: 70px; 
+    padding-right: 70px;
 }
 
-.title-content-1 {
-  text-align: center; 
-  font-size: 30px; 
-  padding-top: 1%; 
-  color: white;
-  font-weight: 600;
+.page-description {
+    font-size: 21px;
+    color: 
+    #666;
+    margin: 10px 0 30px 0;
+        margin-bottom: 30px;
+    line-height: 1.4;
 }
 
-.text-content-1 {
-  padding-bottom: 6%; 
-  text-align: center;
-  padding-right: 14%; 
-  padding-left: 14%; 
-  color: white; 
-  font-size: 15px; 
-  font-weight: 400; 
-  line-height: 1.5; 
-  font-style: normal; 
-  letter-spacing: 0; 
-  text-transform: none;
+.contenido {
+    margin-top: 3.5%; 
+    padding-left: 70px; 
+    padding-right: 70px;
 }
 
-.text-content-2 {
-  text-align: center;
-  padding-right: 10.5%; 
-  padding-left: 10.5%; 
-  color: white; 
-  font-size: 16px; 
-  font-weight: 400; 
-  line-height: 1.5; 
-  font-style: normal; 
-  letter-spacing: 0; 
-  text-transform: none;
+.text-content {
+    overflow: hidden;
+    color: #333 !important;
+    font-size: 15px;
+    font-weight: 450;
+    padding-right: 15%;
+    padding-bottom: 8%;
 }
 
-.title-content-2 {
-  text-align: center; 
-  padding-right: 4%; 
-  padding-left: 4%; 
-  font-size: 35px; 
-  padding-top: 1%; 
-  color: white;
-  font-weight: 300;
+.text-descargar {
+    font-size: 2rem;
+    line-height: 1em;
+    margin: 40px 0 20px 0;
+        margin-right: 0px;
+    padding: 20px 0 0 0;
+        padding-right: 0px;
+    border-top: solid 1px
+    #ddd;
+    color: #333;
 }
 
-.ipad-fondo {
-  background-image: url("http://proyecto-disenoweb.com:8000/images/ipad.jpg");
-  height: 100%;
-  width: 100%;
-  padding-top: 11%;
-  padding-bottom: 11%;
+.enlaces {
+    color: #333;
+    font-weight: 600;
 }
 
-.ipad-text {
-  padding-right: 8%; 
-  padding-left: 8%; 
-  font-size: 22px; 
-  padding-top: 1%; 
-  color: white;
-  font-weight: 300;
-}
-.ipad-text-2 {
-  padding-right: 8%; 
-  padding-left: 10%; 
-  font-size: 22px;  
-  color: white;
-  font-weight: 300;
+.space-a {
+    padding-bottom: 5%;
 }
 
-.ipad-text-3 {
-  text-align: center; 
-  color: white;
-  padding-left: 5%;
-  padding-right: 68%;
+.enlaces-info {
+    font-weight: 600;
+    color: #1473e6;
 }
 
-.enlace {
-  color: #1568ce;
-  padding-left: 13%;
-  padding-right: 68%;
-  text-align: center;
-  font-weight: 600;
+.enlaces-info:hover {
+    font-weight: 600;
+    color: #1473e6;
+    text-decoration: underline;
 }
 
-.enlace:hover {
-  color: #1568ce;
+.barra-gris{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #f7f7f7;
 }
 
-.fondo-gris {
-  background-color: #1e1e1e;
+.texto-barra-gris{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #2D2D2D;
 }
 
-.options {
-  text-align: center !important;
-  color: #1568ce;
-  margin-right: 40%;
-  margin-left: 40%;
+.espacio-barra-gris {
+    margin-top: 1%; 
+    margin-bottom: 4%;
 }
 
-.options:hover {
-  color: #1568ce;
+@media only screen and (max-width: 1015px) {
+  .contenido {
+        margin-top: 4%; 
+    } 
+  .page-description {
+        font-size: 18px;
+    }
+  .page-title {
+        font-size: 1.5rem
+    }
+
+  .text-descargar {
+      font-size: 24px;
+    }
+  .text-content {
+        padding-right: 0%;
+    }   
 }
 
-.title-content-3 {
-  text-align: center; 
-  padding-right: 4%; 
-  padding-left: 4%; 
-  font-size: 35px; 
-  padding-top: 1%; 
-  color: white;
-  font-weight: 300;
-  padding-top: 3%;
+.text-card {
+    margin: 0;
+    font-size: 14px;
+    color:
+    #333333;
+    font-weight: bold;
+    line-height: 18px;
+    height: 54px;
+    overflow: hidden;
 }
 
-.text-content-3 {
-  text-align: center;
-  padding-right: 11.5%; 
-  padding-left: 11.5%; 
-  color: white; 
-  font-size: 16px; 
-  font-weight: 400; 
-  line-height: 1.5; 
-  font-style: normal; 
-  letter-spacing: 0; 
-  text-transform: none;
+.space-between-word {
+    margin-right: 3%;
 }
 
-.space-1 {
-  padding-top: 15%; 
-  padding-bottom: 15%;
+.margenes {
+    margin-top: 6% !important;
+    margin-bottom: 9% !important;
 }
 
-.space-2 {
-  margin-top: 3%;
+.text-content-info {
+    overflow: hidden;
+    color: #333 !important;
+    font-size: 15px;
+    font-weight: 450;
+    padding-right: 20%;
 }
 
-.space-3 {
-  margin-left: 20%;
+.titulos-ayuda {
+    font-weight: 600;
+    font-size: 22px; 
+    color: #333; 
+    margin-top: 1.5%; 
+    margin-bottom: 2.5%;
 }
 
-.space-4 {
-  margin-right: 20%;
-}
-.div-image {
-  text-align: center;
+.espacio-contenido {
+    padding-bottom: 3% !important;
 }
 
-.space-5 {
-  margin-top: 3%; 
-  padding-bottom: 7%;
+.espacio-contenido-2 {
+    padding-bottom: 10% !important;
 }
 
-.p-title {
-  text-align: center; 
-  color: white; 
-  font-weight: 600;
-}
-
-.p-text {
-  text-align: center; 
-  color: white;
-}
-
-.size-image {
-  width: 80%; 
-  height: auto;
-}
-
-.title-content-2 {
-  text-align: center; 
-  font-size: 30px; 
-  padding-top: 2%; 
-  color: white;
-  font-weight: 600;
-
-}
-
-.text-4 {
-  text-align: center; 
-  color: white; 
-  margin-top: 1.5%; 
-  font-size: 12px; 
-  font-weight: 600;
-}
-
-.enlace-2 {
-  margin-top: 2%;;
-  color: #1568ce;
-  padding-left: 45%;
-  padding-right: 45%;
-  text-align: center;
-  font-weight: 600;
-  font-size: 13px;
-  margin-bottom: 2%;
-}
-
-.enlace-2:hover {
-  color: #1568ce;
-}
-
-.fondo-house {
-  margin-top: 3%;
-  text-align: center;
-  padding-bottom: 14%;
-  padding-top: 14%;
-  background-image: url("http://proyecto-disenoweb.com:8000/images/house.jpg");
-}
-
-.big-text{
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
-}
-
-.button-information {
-  padding: 0 12px;
-  font-size: 14px;
-  line-height: 32px;
-  font-weight: 700;
-  background-color: transparent;
-  color: #fff;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 16px;
-  border-color: white;
-  transition: background-color .1s ease,box-shadow .1s ease;
-  margin-left: 45%; 
-  margin-right: 45%; 
-  padding-top: .5%; 
-  padding-bottom: .5%; 
-  margin-bottom: 3%;
-}
-
-.button-information:hover {
-    color:  black;
-    background-color: white;
-    border-color: white;
-}
-
-.fondo-azul {
-  text-align: center;
-  padding-left: 7%;
-  padding-right: 7%;
-  padding-bottom: 5%;
-  background-image: url("http://proyecto-disenoweb.com:8000/images/fondo.jpg");
-}
-
-.title-content-4 {
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 1.3;
-  letter-spacing: 0;
-  padding-top: 4%;
-  color: gainsboro;
-  padding-bottom: 3%;
-}
-
-.big-text-2{
-  font-size: 35px;
-  font-weight: 800;
-  color: white;
-  margin-top: 2%;
+@media only screen and (max-width: 758px) {
+    .text-descargar {
+      font-size: 24px;
+    }
+    .text-content {
+        padding-right: 0%;
+    }   
+    .text-content-info {
+        padding-right: 0%;
+    }
 }

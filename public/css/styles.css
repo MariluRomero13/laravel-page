@@ -1,7 +1,8 @@
 /*Navbar classes*/
 .menu-space {
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    z-index: 100;
 }
 .spaces {
     padding-left: 8%;
@@ -10,8 +11,12 @@
 .menu-section {
     font-weight: 650;
     font-size: 14px;
+    color: #6b6b6b;
 }
-.title-p
+.menu-section:hover {
+  color: #1473e6  !important;
+}
+.title-p 
 {
     color: #2d2d2d !important;
     font-weight: 600;
@@ -193,3 +198,15 @@ html,body {
 .copyright:hover {
     color: white;
 }
+<<<<<<< HEAD
+=======
+
+
+.world-color {
+  color: #999;
+}
+
+.world-color.footer {
+  color: white;
+}
+>>>>>>> 78b22b69b53aa4dd895049d59d4aceb7c4d5fa32

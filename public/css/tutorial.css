@@ -1,0 +1,189 @@
+.page-title  {
+    margin: 0;
+    padding: 4px 48px 6px 0;
+    font-size: 36px;
+    line-height: 1.15;
+    font-weight: 500;
+    text-align: left;
+    color:  white;
+    background-repeat: no-repeat;
+    background-size: 32px auto;
+    background-position: 0 10px;
+}
+
+.barra-negra {
+    background: #202020; 
+    padding-top: 1%; 
+    padding-bottom: -.2%; 
+    padding-left: 70px; 
+    padding-right: 70px;
+}
+
+.tutorial-description {
+    margin: 20px 0;
+    font-size: 23px;
+    line-height: 32px;
+    color: #666;
+}
+
+.espacio {
+    padding-right: 17%; 
+    padding-left: 17%; 
+    margin-top: 3%;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #333;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 1%;
+  color: white;
+}
+
+.stepNumber {
+    margin: 30px 0 0 0;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    padding-top: 24px;
+    color: black;
+    overflow-wrap: normal;
+}
+
+.fondo-flores {
+    background-image: url("http://proyecto-disenoweb.com:8000/images/flores.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 27%;
+    padding-bottom: 27%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.fondo-trabajo {
+    background-image: url("http://proyecto-disenoweb.com:8000/images/trabajo.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 27%;
+    padding-bottom: 27%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.fondo-zoom {
+    background-image: url("http://proyecto-disenoweb.com:8000/images/zoom.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 27%;
+    padding-bottom: 27%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.fondo-florero {
+    background-image: url("http://proyecto-disenoweb.com:8000/images/florero.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 27%;
+    padding-bottom: 27%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.fondo-flores-moradas {
+    background-image: url("http://proyecto-disenoweb.com:8000/images/flores-moradas.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 27%;
+    padding-bottom: 27%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.size-fuente {
+    font-size: 20px; 
+    color: black;
+}
+
+.espacio-videos {
+    margin-bottom: 10%;
+}
+
+.espacio-videos-2 {
+    margin-bottom: 5%;
+}
+
+.titulo-video {
+    font-weight: 600; 
+    font-size: 22px;
+}
+
+.lista-video {
+    list-style-type: disc; 
+    padding-left: 22px;
+}
+
+.elementos-videos {
+    font-size: 20px; 
+    margin-bottom: 1.5%; 
+}
+
+.siguiente {
+    font-weight: 500; 
+    font-size: 20px;
+}
+
+.siguiente > a:hover {
+    color:#1473e6;
+    text-decoration: underline;
+}
+
+.credits-container {
+
+    width: 100%;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-top: 1px solid #a9a9a9;
+    border-bottom: 1px solid#a9a9a9;
+    line-height: 30px;
+}
+
+.credits-container div.credits-publish-date {
+    width: 100%;
+    display: block;
+}
+
+.publish-date {
+    color: #333333;
+    font-weight: 600;
+}
+
+.autor {
+    font-weight: 600; 
+    color: #a9a9a9;
+}
+.autor > a:hover {
+    color:#1473e6;
+    text-decoration: underline;
+}
+
+.space-autor {
+    margin-top: 4%; 
+    margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 768px) {
+    .espacio {
+        padding-right: 5%; 
+        padding-left: 5%; 
+        margin-top: 3%;
+    }
+}

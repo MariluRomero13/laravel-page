@@ -1,0 +1,237 @@
+extends ../layouts/layout-page.pug
+block title 
+    title Introducción a Photoshop
+block styles
+     link(rel="stylesheet" href="http://127.0.0.1:8000/css/index.css")
+
+block content
+    header
+        include ../layouts/sub-menu.pug
+        div(class="columns is-desktop barra-negra")
+            div(class="column is-6")
+                h1(class="page-title") Introducción a Photoshop
+            div(class="column is-6")
+                div(class="field has-addons has-addons-right")
+                    p(class="control")
+                        input(class="input is-medium" type="text" placeholder="Buscar en Asistencia de Adobe")
+                    p(class="control")
+                        button(class="button is-medium") 
+                            i(class="fas fa-search")
+
+    div(class="contenido")
+        div(class="page-description") Siga estos pasos para ponerse en marcha con Adobe Photoshop.
+        h2(class="text-descargar") Cómo descargar e instalar Photoshop
+        div(class="columns")
+            div(class="column is-three-quarters")
+                div(class="card-content")
+                    div(class="media")
+                        div(class="media-left")
+                            figure(class="image is-96x96")
+                                img(src="http://127.0.0.1:8000/images/download_icon.jpg" alt="descargar" class="size-image")
+                            
+                        div(class="media-content text-content")
+                            p.
+                                Haga clic en Descargar Photoshop para comenzar a descargar Photoshop. 
+                                Siga las instrucciones en pantalla para iniciar sesión e instalarlo. 
+                                (Si ve que se le redirige a la página de la versión de prueba gratuita, 
+                                no se preocupe. Podrá descargar la versión de suscripción una vez que haya iniciado sesión).
+                    
+                    div
+                        a(class="button is-link is-rounded" href="/download") Descargar Photoshop
+                
+
+            div(class="column")
+                div(class="space-a")
+                    span(class="enlaces") Enlaces de ayuda
+                div(class="space-a")
+                    a(class="enlaces-info") Foro de descarga e instalación 
+                div(class="space-a")
+                    a(class="enlaces-info") Foro para principiantes en Photoshop
+                div(class="space-a")
+                    a(class="enlaces-info") Requisitos del sistema
+                div(class="space-a")
+                    a(class="enlaces-info" href="/whats-new") Novedades de Photoshop
+
+        div(class="espacio-barra-gris")
+            div(class="barra-gris")
+                p(class="texto-barra-gris")
+                    i(class="fas fa-external-link-alt" style="margin-right: 1%;") 
+                    ¿Necesita ayuda con la descarga o la instalación? Consulte
+                    a(class="enlaces-info" href="/download")     Descargar e instalar Photoshop CC.
+        
+        h2(class="text-descargar") Empezar
+        div(class="columns margenes")
+            div(class="column is-3")
+                a(href="/tutorial-detalles")
+                    div(class="card")
+                        div(class="card-image")
+                            figure(class="image is-4x3")
+                                img(src="http://127.0.0.1:8000/images/articulos/1.png" alt="Placeholder image")
+                        
+                        div(class="card-content")
+                            div(class="content text-card").
+                                Conceptos básicos de Photoshop
+                        footer(class="card-footer")
+                            p(class="card-footer-item")
+                                i(class="fas fa-graduation-cap space-between-word")
+                                span Tutorial
+                            p(class="card-footer-item")
+                                span 20 min
+            div(class="column is-3")
+                a(href="/tutorial-detalles")
+                    div(class="card")
+                        div(class="card-image")
+                            figure(class="image is-4x3")
+                                img(src="http://127.0.0.1:8000/images/articulos/2.png" alt="Placeholder image")
+                        
+                        div(class="card-content")
+                            div(class="content text-card").
+                                Cambiar el tamaño de la imagen
+                        footer(class="card-footer")
+                            p(class="card-footer-item")
+                                i(class="fas fa-graduation-cap space-between-word")
+                                span Tutorial
+                            p(class="card-footer-item")
+                                span 17 min
+
+            div(class="column is-3")
+                a(href="/tutorial-detalles")
+                    div(class="card")
+                        div(class="card-image")
+                            figure(class="image is-4x3")
+                                img(src="http://127.0.0.1:8000/images/articulos/3.png" alt="Placeholder image")
+                        
+                        div(class="card-content")
+                            div(class="content text-card").
+                                Trabajar con capas
+                        footer(class="card-footer")
+                            p(class="card-footer-item")
+                                i(class="fas fa-graduation-cap space-between-word")
+                                span Tutorial
+                            p(class="card-footer-item")
+                                span 20 min
+
+            div(class="column is-3")
+                a(href="/tutorial-detalles")
+                    div(class="card")
+                        div(class="card-image")
+                            figure(class="image is-4x3")
+                                img(src="http://127.0.0.1:8000/images/articulos/4.png" alt="Placeholder image")
+                        
+                        div(class="card-content")
+                            div(class="content text-card").
+                                Ajustar la calidad de la imagen
+                        footer(class="card-footer")
+                            p(class="card-footer-item")
+                                i(class="fas fa-graduation-cap space-between-word")
+                                span Tutorial
+                            p(class="card-footer-item")
+                                span 16 min
+                              
+        h2(class="text-descargar") Familiarícese con la aplicación
+        div(class="columns margenes")
+            div(class="column is-3")
+                a(href="")
+                    div(class="card")
+                        div(class="card-image")
+                            figure(class="image is-4x3")
+                                img(src="http://127.0.0.1:8000/images/articulos/5.png" alt="Placeholder image")
+                        
+                        div(class="card-content")
+                            div(class="content text-card").
+                                Interfaz de usuario de Photoshop
+                        footer(class="card-footer")
+                            p(class="card-footer-item")
+                                i(class="fas fa-file-alt space-between-word")
+                                span Artículo
+
+            div(class="column is-3")
+                a(href="")
+                    div(class="card")
+                        div(class="card-image")
+                            figure(class="image is-4x3")
+                                img(src="http://127.0.0.1:8000/images/articulos/6.png" alt="Placeholder image")
+                        
+                        div(class="card-content")
+                            div(class="content text-card").
+                                Galerías de herramientas
+                        footer(class="card-footer")
+                            p(class="card-footer-item")
+                                i(class="fas fa-file-alt space-between-word")
+                                span Artículo
+
+            div(class="column is-3")
+                a(href="")
+                    div(class="card")
+                        div(class="card-image")
+                            figure(class="image is-4x3")
+                                img(src="http://127.0.0.1:8000/images/articulos/7.png" alt="Placeholder image")
+                        
+                        div(class="card-content")
+                            div(class="content text-card").
+                                Creación de documentos
+                        footer(class="card-footer")
+                            p(class="card-footer-item")
+                                i(class="fas fa-file-alt space-between-word")
+                                span Artículo
+
+            div(class="column is-3")
+                a(href="")
+                    div(class="card")
+                        div(class="card-image")
+                            figure(class="image is-4x3")
+                                img(src="http://127.0.0.1:8000/images/articulos/8.png" alt="Placeholder image")
+                        
+                        div(class="card-content")
+                            div(class="content text-card").
+                                Buscar elementos de la interfaz de usuario, recursos y mucho más
+                        footer(class="card-footer")
+                            p(class="card-footer-item")
+                                i(class="fas fa-file-alt space-between-word")
+                                span Artículo
+        h2(class="text-descargar") Ayuda con la suscripción
+        div(class="columns")
+            div(class="column is-three-quarters")
+                div(class="espacio-contenido")
+                    h3(class="titulos-ayuda") ¿Ha olvidado su Adobe ID o la contraseña?
+                    p(class="text-content-info")
+                        | El Adobe ID es la dirección de correo electrónico que usó 
+                        | al descargar por primera vez una versión de prueba o 
+                        | comprar una aplicación o un plan de Adobe. 
+                        a(class="enlaces-info").
+                                Encontrar soluciones a problemas habituales que se presentan con el Adobe ID o el inicio de sesión. 
+            
+                div(class="espacio-contenido")
+                    h3(class="titulos-ayuda") ¿Por qué tengo que iniciar sesión para usar Photoshop?
+                    p(class="text-content-info")
+                        | Debe iniciar sesión periódicamente para validar la licencia. Los suscriptores 
+                        | mensuales deben hacerlo cada 30 días, y los suscriptores anuales, 
+                        | cada 99 días. También hay que iniciar sesión cuando se descarga o 
+                        | actualiza Photoshop. Para obtener más información, consulte
+                        a(class="enlaces-info")  Iniciar y cerrar sesión para activar y desactivar las aplicaciones de Creative Cloud. 
+
+                div(class="espacio-contenido")
+                    h3(class="titulos-ayuda") ¿Se puede instalar Photoshop en otro equipo?
+                    p(class="text-content-info")
+                        | Puede instalar Photoshop y otras aplicaciones de Creative Cloud en hasta dos ordenadores. 
+                        | Si quiere instalarlo en un tercer ordenador, deberá desactivarlo en uno de los equipos anteriores. 
+                        | Obtenga más información sobre la 
+                        a(class="enlaces-info")  activación y desactivación de aplicaciones de Creative Cloud.
+                        
+                div(class="espacio-contenido-2")
+                    h3(class="titulos-ayuda") ¿Cómo puedo obtener mi factura?
+                    p(class="text-content-info") Puede imprimir una factura desde su cuenta de Adobe.com. Para más detalles, consulte 
+                        a(class="enlaces-info")  Imprimir un recibo de pago o una factura.
+                        
+            div(class="column")
+                div(class="space-a")
+                    span(class="enlaces") Enlaces de ayuda
+                div(class="space-a")
+                    a(class="enlaces-info") Formación y asistencia técnica de Creative Cloud 
+                div(class="space-a")
+                    a(class="enlaces-info") Administrar el Adobe ID
+                    
+    div
+        include ../layouts/layout-info.pug
+            
+ 

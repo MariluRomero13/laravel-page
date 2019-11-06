@@ -1,0 +1,109 @@
+.texto-titulo-t {
+    text-align: center;
+    color: #333333;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.texto-subtitulo-t{
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+}
+
+.texto-titulo-t2{
+    text-align: center;
+    color: #333333;
+    font-size: 25px;
+}
+
+.hero-container-t {
+    background-color: white;
+}
+
+.hero-card-t {
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.card-rounded-t {
+    border-radius: 5px;
+}
+
+.hero-ayuda{
+    height: 30px;
+    width: 100%;
+    background-color: #2B9AF3;
+    border-color: #333333;
+}
+
+div.space-components-t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tamaño-card{
+    height: 280px;
+}
+
+.texto-t{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 1%;
+}
+
+.texto-titulo-card-t{
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+
+.texto-titulo-card-t-2{
+    font-size: 14px;
+    margin-bottom: 65px;
+}
+
+.texto-card-t{
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 767px){
+
+    .hero-container-t {
+        background-color: #E5E5E5;
+    }
+
+    .hero-card-t {
+        padding-left: 22%;
+        padding-right: 10%;
+    }
+
+    .texto-titulo-t2{
+        text-align: center;
+        color: #333333;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .tamaño-card{
+        height: 330px;
+        width: 290px;
+    }
+
+    .texto-titulo-card-t{
+        font-size: 20px;
+        margin-bottom: 42px;
+    }
+    
+    .texto-titulo-card-t-2{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .texto-card-t{
+        font-size: 13px;
+    }
+}

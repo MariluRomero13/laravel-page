@@ -1,0 +1,21 @@
+extends ../layouts/layout.pug
+block styles
+    link(rel="stylesheet" href="http://127.0.0.1:8000/css/sub-menu.css")
+
+
+
+    div(class="navbar navbar-FA navbar-space-FA" role="navigation" aria-label="main navigation")
+        div(class="navbar-brand")
+            a(class="navbar-item" href="/")
+                img(src="http://127.0.0.1:8000/images/logo_photo.png" width="25" height="35")
+                span(class="navbar-item color-text-logo-FA") ADOBE PHOTOSHOP
+
+        div(class="navbar-menu")
+            div(class="navbar-start")
+                a(class="navbar-item color-options-menu-FA" href="/formacion-asistencia") Aprendizaje y asistencia
+                a(class="navbar-item color-options-menu-FA" href="/introduccion-photoshop") Introducción 
+                a(class="navbar-item color-options-menu-FA") Guía del usuario
+                a(class="navbar-item color-options-menu-FA" href="/tutoriales") Tutoriales
+                a(class="navbar-item color-options-menu-FA" href="/prueba-gratuita") Prueba gratuita
+                div(class="navbar-item")
+                        a(class="button-menu") Comprar ahora

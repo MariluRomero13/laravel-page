@@ -1,0 +1,105 @@
+extends ../layouts/layout-page.pug
+block title 
+    title Photoshop gratuito | Descarga Photoshop
+block styles
+    link(rel="stylesheet" href="http://127.0.0.1:8000/css/prueba_gratuita.css")
+
+block content
+    header 
+        div(class="navbar navbar-pg navbar-space-pg" role="navigation" aria-label="main navigation")
+            div(class="navbar-brand")
+                a(class="navbar-item" href="#")
+                    img(src="http://127.0.0.1:8000/images/logo_photo.png" width="25" height="35")
+                    span(class="navbar-item color-text-logo-pg") VERSIÓN DE PRUEBA GRATUITA DE ADOBE PHOTOSHOP
+        
+        section(class="hero hero-space")
+            div(class="hero-body")
+                div(class="container")
+                    p(class="texto-titulo-pg") Prueba la última versión de Photoshop gratis.
+                    p(class="texto-titulo-pg") Versión de prueba de 7 días.
+                    div(class="space-components-pg")
+                        button(class="button is-link is-rounded") 
+                            span Empezar con la prueba gratuita
+                        a(href="#" class="text-link-pg") Comprar ahora>
+        
+        section(class="hero hero-informacion-pg")
+            div(class="hero-body")
+                div(class="container")
+                    p(class="texto-info-titulo-pg") Con tu pago a Adobe Creative Cloud, también se incluyen:
+                    div(class="columns")
+                        div(class="column")
+                            ul
+                                li(align="center")
+                                    img(src="http://127.0.0.1:8000/images/imagen-1-pg.png")
+                                    p(class="texto-informacion-pg") Obtén 2 GB de almacenamiento en la nube, aplicaciones móviles gratuitas, fuentes de Adobe Fonts y funciones para compartir archivos.
+                        div(class="column")
+                            ul
+                                li(align="center")
+                                    img(src="http://127.0.0.1:8000/images/imagen-2-pg.png")
+                                    p(class="texto-informacion-pg") Gestiona las actualizaciones de las aplicaciones, los archivos, las fuentes y mucho más con la aplicación de escritorio de Creative Cloud.
+                        div(class="column")
+                            ul
+                                li(align="center")
+                                    img(src="http://127.0.0.1:8000/images/imagen-3-pg.png")
+                                    p(class="texto-informacion-pg") Explora cientos de tutoriales en video para todos los niveles de conocimiento.
+        
+
+        section(class="hero hero-space")
+            div(class="hero-body")
+                div(class="container")
+                    p(class="texto-titulo-pg") Preguntas frecuentes sobre la versión de prueba gratuita
+                    div(class="columns hero-preguntas-pg")
+                        div(class="column")
+                            p(class="texto-pregunta-titulo-pg") ¿La versión de prueba gratuita de Photoshop funciona en macOS y Windows?
+                            p(class="texto-pregunta-pg") Sí, esta versión de prueba de Photoshop funciona con macOS, iOS para iPad Pro y Windows. 
+                                a(href="#") Consulta los requisitos del sistema ›
+                            br
+                            p(class="texto-pregunta-titulo-pg") ¿Cuánto dura la versión de prueba gratuita?
+                            p(class="texto-pregunta-pg") La versión de prueba gratuita comienza cuando proporcionas los datos y dura siete días. La versión de prueba se convertirá automáticamente en un pago a Creative Cloud de pago cuando se acabe, a menos que la canceles antes.
+                            br
+                            p(class="texto-pregunta-titulo-pg") ¿Puedo descargar una versión de prueba gratuita de Photoshop CS6?
+                            p(class="texto-pregunta-pg") No, Photoshop es nuestra versión más actualizada y la única versión de Photoshop que puedes descargar como versión de prueba gratuita.
+                            br
+                            p(class="texto-pregunta-titulo-pg") ¿Los estudiantes se benefician de un descuento si deciden comprarlo tras el periodo de prueba gratuita? 
+                            p(class="texto-pregunta-pg") Sí, los estudiantes y los educadores se pueden beneficiar de un gran descuento en la colección completa de aplicaciones de Creative Cloud (60 % de ahorro). 
+                                a(href="#") Más información ›
+                        div(class="column")
+                            br
+                            p(class="texto-pregunta-titulo-pg") ¿La versión de prueba gratuita de Photoshop es una versión completa?
+                            p(class="texto-pregunta-pg") Sí, incluye todas las funciones y actualizaciones de la última versión de Photoshop.
+                            br
+                            p(class="texto-pregunta-titulo-pg") ¿Puedo descargar la versión de prueba gratuita en mi teléfono?
+                            p(class="texto-pregunta-pg") No, esta versión de prueba gratuita solo está disponible para equipos de escritorio e iPad. Adobe ofrece una colección de aplicaciones móviles gratuitas para iOS y Android. 
+                                a(href="#") Más información ›
+                            br
+                            p(class="texto-pregunta-titulo-pg") ¿Puedo obtener Photoshop sin un pago a Creative Cloud?
+                            p(class="texto-pregunta-pg") No, Photoshop solo está disponible como parte de un pago a Creative Cloud. Elige entre un plan de aplicación única solo con Photoshop o un plan que incluya más aplicaciones. Ofrecemos planes de pago a Creative Cloud para particulares, estudiantes y educadores, fotógrafos, instituciones y compañías. 
+                                a(href="#") Más información ›
+        hr
+        section(class="hero hero-mas-tareas")
+            div(class="hero-body")
+                div(class="container")
+                    p(class="texto-titulo-pg") Preguntas frecuentes sobre la versión de prueba gratuita
+                    br
+                    div(class="columns")
+                        div(class="column")
+                            div(class="texto-mas-tareas-pg")
+                                a(href="#") Edición de fotos online
+                                p Migra tu flujo de trabajo del escritorio a la nube. Aplica ajustes fotográficos avanzados, manipula el color y corrige la perspectiva en cualquier lugar.      
+                        div(class="column")
+                            div(class="texto-mas-tareas-pg")
+                                a(href="#") Efectos de fotos online
+                                p Puedes crear fotografías asombrosas gracias a las capacidades de la nube. Las aplicaciones fotográficas online de Adobe procesan y catalogan las imágenes para que estén siempre disponibles en el lugar y en el momento en los que las necesites.   
+                                
+                        div(class="column")
+                            div(class="texto-mas-tareas-pg")
+                                a(href="#") Software de edición de fotos
+                                p Lleva tus fotos a un nivel superior con este poderoso software de edición fotográfica para el Sitio web, el escritorio y los dispositivos móviles tanto si eres un fotógrafo principiante como profesional.   
+                                
+                        div(class="column")
+                            div(class="texto-mas-tareas-pg")
+                                a(href="#") Software de diseño gráfico
+                                p Dibuja, colorea, compón y fusiona con el nuevo software de diseño gráfico de Adobe. Puedes crear impresionantes gráficos e ilustraciones con aplicaciones líderes en el sector.    
+                                
+                            
+                            

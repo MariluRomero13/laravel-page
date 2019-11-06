@@ -1,0 +1,45 @@
+extends ../layouts/layout.pug
+block styles
+    link(rel="stylesheet" href="http://127.0.0.1:8000/css/layout-info.css")
+
+block content
+ 
+    section(class="hero footer-sm")
+            div(class="hero-body")
+                div(class="container")
+                    div(class="logo-sm")
+                        img(src="http://127.0.0.1:8000/images/logo_photo.png" width="25" height="35")
+                        p(class="titulo-sm") ADOBE PHOTOSHOP
+                    div(class="columns columnas-espacio-sm")
+                        div(class="column")
+                            div(class="texto-sub-footer-sm")
+                                ul
+                                    li 
+                                        a(href="#") < Ver todas las aplicaciones
+                                    li  
+                                        p Aprendizaje y Asistencia
+                                    li 
+                                        a(href="#") Introducción
+                                    li 
+                                        a(href="#") Tutoriales
+                                    li 
+                                        a(href="#") Guía del usuario
+                        div(class="column")
+                            div(class="logo-sm")
+                                i(class="far fa-comments icono-sm")
+                                p(class="texto-titulo-sm") Pregunte a la comunidad
+                            div(class="texto-sub-footer-sm")
+                                p Publique sus preguntas para que le respondan expertos en la materia.
+                                a(href="#") Preguntar ahora
+                        div(class="column")
+                            div(class="logo-sm")
+                                i(class="fas fa-headset icono-sm")
+                                p(class="texto-titulo-sm") Contacto
+                            div(class="texto-sub-footer-sm")
+                                p Ayuda en directo con uno de nuestros consejeros
+                                a(href="#") Comenzar
+                        div(class="column")
+                            div(class="texto-sub-footer-sm")
+                                a(href="#") ^ Volver arriba
+                            
+            
