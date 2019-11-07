@@ -168,3 +168,16 @@
         padding-right: 0%;
     }
 }
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 9rem;
+}
+
+.nsticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    z-index: 30;
+}

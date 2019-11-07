@@ -1,3 +1,16 @@
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 9rem;
+}
+
+.nsticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    z-index: 30;
+}
+
 .page-title  {
     margin: 0;
     padding: 4px 48px 6px 0;
