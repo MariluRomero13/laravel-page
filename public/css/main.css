@@ -530,3 +530,10 @@
   text-align: left; 
   padding-left: 2%;
 }
+
+.sticky-azul {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 30;
+}
