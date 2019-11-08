@@ -1,0 +1,179 @@
+.font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nbf {
+    font-weight: 700;
+    font-size: 13px;
+    font-style: italic;
+    margin-left: 1rem;
+}
+
+.icx {
+    font-size:15px; 
+    margin-top:0.5rem;
+    height: 2rem;
+    width: 15rem;
+    margin-left: 4rem;
+    box-shadow: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.fontAwesome {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+  }
+
+.bh{
+    border-color: #bdbdbd;
+    border-width: 2px;
+    color: #b1b0b0;
+}
+
+.ccccx {
+    margin-right: 3rem;
+}
+
+.gg {
+    margin-left: 5rem;
+}
+
+.bu {
+    margin-top:1rem; background-color:transparent; border-width:2px;
+}
+
+.bdo {
+    margin-top:1rem; background-color: #1473e6; border-color: #1473e6;
+}
+
+.hg {
+    height: 130px;
+}
+
+.ccon {
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.let {
+    font-size: small;
+    margin-top: 38px;
+}
+
+.let2 {
+    font-size:small;
+    left:0;
+    margin-top: 33px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 8rem;
+    text-align: start;
+}
+
+.ml {
+    margin-left: 2rem;
+}
+
+.dat {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size:smaller;
+    color: #9c9c9c;
+    font-style: italic;
+    margin-left: 7px;
+}
+
+.tf {
+    font-weight: 510;
+    margin-top: 5px;
+    font-stretch: extra-expanded;
+    font-size: large !important; 
+}
+
+.tef {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #929191;
+}
+
+.im {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: small;
+    color: #929191;
+}
+
+.im1 {
+    margin-top: 1rem;
+    font-size: small;
+    color: #929191;
+}
+.sm {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: small;
+    color: #929191;
+}
+
+.sm2 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: medium;
+    font-weight: 540;
+}
+
+.im2 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: medium;
+}
+
+.pagm {
+    margin-top: 7rem;
+}
+
+.hfc {
+    background-color: whitesmoke;
+    border-top-style: solid;
+    border-top-color: rgb(194, 191, 191);
+    border-top-width: thin;
+    margin-top: 7rem;
+}
+
+.hbs {
+    height: 10px;
+}
+
+.tag {
+    background-color: #1b959a !important;
+}
+
+.scm {
+    margin-right: 2rem;
+}
+
+.tibo{
+    height: 20px;
+    font-size: 12px;
+    margin-right: 10px !important;
+    padding: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+
+.tibo1{
+    height: 20px;
+    font-size: 12px;
+    margin-right: 10px !important;
+    padding: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+
+.hrs {
+    border-style: dotted;
+    border-width: 1px;
+}

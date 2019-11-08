@@ -58,4 +58,7 @@ class ViewController extends Controller
     public function requisitos(){
         return view('page.requisitos');
     }
+    public function community(){
+        return view('page.community');
+    }
 }

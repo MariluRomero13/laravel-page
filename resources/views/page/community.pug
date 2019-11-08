@@ -1,0 +1,391 @@
+extends ../layouts/layout.pug
+
+block title 
+    title Photoshop on Adobe Support Comunity
+block styles
+     link(rel="stylesheet" href="http://127.0.0.1:8000/css/community.css")
+
+<input type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" />
+
+block content
+    header
+    div(class="container is-mobile ggg")
+        nav(class="navbar menu-space is-fixed-top is-mobile")
+            div(class="container")
+                div(class="navbar-brand")
+                    a(class="navbar-item gg" href="#")
+                        img(src="http://127.0.0.1:8000/images/icon.png" width="20" height="20")
+                        span(class="font nbf") Adobe Support Community
+            div(class="container is-mobile")
+                div(id="main-items" class="navbar-menu")
+                    div(class="container")
+                        div(class="navbar-start spaces")
+                            div(class="field has-addons")
+                                p(class="control")
+                                    input(class="input icx" type="text" placeholder="Buscar en esta Comunidad")
+            div(class="container ccccx is-mobile")
+                div(class="navbar-end")
+                    div(class="navbar-item")
+                        a(class="navbar-item menu-section button is-rounded bh" href="/login") Iniciar Sesión
+
+    section
+        body(class="has-navbar-fixed-top")
+            div(class="hero hg" style="background-color:#061E36;")
+                div(class="hero-body")
+                    div(class="container")
+                        div(class="columns is-desktop")
+                            div(class="column is-3 font")
+                                div(class="container" style="margin-left:2rem; text-align:centered;")
+                                    a(href="#")
+                                        img(src="http://127.0.0.1:8000/images/logo_photo.png" width="37" height="37")
+                                        span(style="color:#26C9FF; font-size:30px; margin-left:1rem; font-weight:600;") Photoshop
+                            div(class="column is-6")
+                                p(style="color:white;" class="font") Conversaciones
+                                p(style="color:white; font-size:x-large;" class="font") 40,498
+                            div(class="column is-0")
+                                div(class="container")
+                                    div(class="columns")
+                                        div(class="column")
+                                            div(class="button is-rounded font has-text-white bu") seguir
+                                        div(class="column")
+                                            div(class="button is-rounded font has-text-white bdo") Publicar en la comunidad
+            
+            div(class="container")
+                div(class="columns is-mobile font")
+                        div(class="column is-8")
+                            div(class="columns")
+                                div(class="column is-5")
+                                    div(class="container is-fluid font")
+                                        h3(class="title is-4 ccon") Conversaciones
+                                div(class="column is-3")
+                                    div(class="columns is-gapless")
+                                        div(class="column")
+                                            div(class="container is-fluid font")
+                                                p(class="let font") clasificar
+                                        div(class="column")
+                                            div(class="dropdown is-hoverable")
+                                                div(class="dropdown-trigger")
+                                                    button(class="button let2" aria-haspopup="true" aria-control="dropdown-menu")
+                                                        span(class="") Relevancia
+                                                        span(class="icon is-small")
+                                                            i(class="fas fa-angle-down ml" aria-hidden="true")
+                                                div(class="dropdown-menu" id="dropdown-menu" role="menu")
+                                                    div(class="dropdown-content")
+                                                        a(href="" class="dropdown-item") Relevancia
+                                                        a(href="" class="dropdown-item") Último respuestas
+                                                        a(href="" class="dropdown-item") Réplicas (de más a menos)
+                                                        a(href="" class="dropdown-item") Relevancia
+                                                        a(href="" class="dropdown-item") Vistas
+                                        div(class="column")
+                                            div(class="container is-fluid font")
+                                                p(class="let") filtrar
+                                        div(class="column")
+                                            div(class="dropdown is-hoverable")
+                                                div(class="dropdown-trigger")
+                                                    button(class="button let2" aria-haspopup="true" aria-control="dropdown-menu")
+                                                        span(class="") Todo
+                                                        span(class="icon is-small")
+                                                            i(class="fas fa-angle-down ml" aria-hidden="true")
+                                                div(class="dropdown-menu" id="dropdown-menu" role="menu")
+                                                    div(class="dropdown-content")
+                                                        a(href="" class="dropdown-item") todo
+                            div(class="container is-fluid")
+                                hr
+                            div(class="container is-fluid")
+                                div(class="tag is-primary") DESTACADO 
+                                small(class="dat") Nov 04, 2019  
+                                p
+                                    h3(class="title  is-6 tf") LIVE from Adobe MAX: New features, tools and amazing new reveals!
+                                p 
+                                    p(class="tef") Hello, Fellow Creatives!   I am thrilled to be writing to you from the experience pavilion of Adobe MAX! Over 20,000 of your fellow creatives have joined Adobe in LA to see and experience the next gen...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 667
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+                                p   
+                                    hr
+                            div(class="container is-fluid")
+                                small(class="dat") Hace 10 minutos... 
+                                p
+                                    h3(class="title  is-6 tf") PS 21.0 Panels won't move Mac OS 10.13.6
+                                p 
+                                    p(class="tef") I briefly was able to move the panels on my second monitor. Now I can only resize them. They won't move around either screen. They are locked. Moving ...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 10
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+                                p   
+                                    hr
+                            div(class="container is-fluid")
+                                small(class="dat") Hace 14 minutos...
+                                p
+                                    h3(class="title  is-6 tf") Brauch Hilfe
+                                p 
+                                    p(class="tef") Ich würde sehr gerne mich in dieses Bild hinzfügen. Es soll aber so ausehen als wäre es "original" daher möchte ich gerne genau die selben Licheffekte...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 2
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+                                p   
+                                    hr
+                            div(class="container is-fluid")
+                                small(class="dat") Hace 20 minutos...  
+                                p
+                                    h3(class="title  is-6 tf") Problem with tabs
+                                p 
+                                    p(class="tef") Hello, When opening photoshop it appears that there is a problem with tabs. At first it appears there is no contet. When right clicking and choosing '...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 15
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 1
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+                                p   
+                                    hr
+                            div(class="container is-fluid")
+                                small(class="dat") Hace 35 minutos... 
+                                p
+                                    h3(class="title  is-6 tf") Photoshop 2020 Save As PNG format deletes all metadata
+                                p 
+                                    p(class="tef") My Photoshop workflow is: Add metdata as a sidecar file to the NEF raw file (usung ACDSee); open NEF file in Photoshop camera raw; do some edits; open...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 12
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 4
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 1
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+                                p   
+                                    hr
+                            div(class="container is-fluid")
+                                small(class="dat") Hace 1 hora...  
+                                p
+                                    h3(class="title  is-6 tf") Issues working with timeline on Photoshop version 20.0.7
+                                p 
+                                    p(class="tef") I updated to Photoshop 21.0 and had to uninstall because of so many bugs. I re-install an older version available through Adobe Creative Cloud, Photos...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 8
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 1
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+                                p   
+                                    hr
+                            div(class="container is-fluid")
+                                div(class="tag is-primary") DESTACADO 
+                                small(class="dat") Nov 01, 2019  
+                                p
+                                    h3(class="title  is-6 tf") Make it! Out of Bounds with Photoshop 2020
+                                p 
+                                    p(class="tef") Create an eye-catching “out of bounds” effect by following these fun steps in Photoshop 2020.   Photoshop 2020 has an amazing collection of new tools and features including enhanced tranform, warp, an...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 334
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 12
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 32
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+                                p   
+                                    hr
+                            div(class="container is-fluid")
+                                small(class="dat") Hace 2 horas... 
+                                p
+                                    h3(class="title  is-6 tf") Images are Wonky in my CS6
+                                p 
+                                    p(class="tef")   I had an issue with my Dell and Win10 so I had to restore the OS, which wiped out all added apps. I reloaded my PS CS6 (educational) a total of 6 ti...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 10
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+                                p   
+                                    hr
+                            div(class="container is-fluid")
+                                small(class="dat") Hace 2 horas...  
+                                p
+                                    h3(class="title  is-6 tf") photoshop timeline slow to preview
+                                p 
+                                    p(class="tef") Hi I'm making an animated video or gif in photoshop consisting of a few images that transition into each other when previewing its really slow and lag...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 20
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 1
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+                                p   
+                                    hr
+                            div(class="container is-fluid")
+                                small(class="dat") Hace 2 horas...
+                                p
+                                    h3(class="title  is-6 tf") Photoshop 2020 Bibliotheque créative cloud
+                                p 
+                                    p(class="tef") Depuis l'installation de PS 2020, je n'ai plus acces à ma bibliotheque CC ni l'interface nouveau document.j'ai désinstallé toute la suite CC puis réin...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 12
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+                                p   
+                                    hr
+                            div(class="container is-fluid")
+                                small(class="dat") Hace 3 horas...  
+                                p
+                                    h3(class="title  is-6 tf") PSD- what happened to constrained enlargement?
+                                p 
+                                    p(class="tef") No matter what combination of keys pressed, selection does not scale in "constrain" mode.   Why would anyone think "scaling disproportionately" would ...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 50
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 4
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+                                p   
+                                    hr
+                            div(class="container is-fluid")
+                                small(class="dat") Hace 3 horas... 
+                                p
+                                    h3(class="title  is-6 tf") Diagonal line on window top right
+                                p 
+                                    p(class="tef") I just installed the new version 21 and I noticed a strange bug.  On the top right of my window (the Windows 7 window), where the three buttons to red...
+                                p
+                                    span(class="icon is-small im1")
+                                        i(class="fas fa-eye")
+                                    span(class="sm") 6
+                                    span(class="icon is-small im")
+                                        i(class="fas fa-comment-alt")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im")
+                                        i(class="far fa-thumbs-up")
+                                    span(class="sm") 0
+                                    span(class="icon is-small im2")
+                                        i(class="fas fa-language")
+                                    span(class="sm2") Traducir
+
+                            div(class="container is-fluid pagm")
+                                        nav(class="pagination is-centered is-rounded" role="navigation" aria-label="pagination")
+                                            a(class="pagination-previous") Anterior
+                                            a(class="pagination-next") Siguiente
+                                            ul(class="pagination-list")
+                                                li
+                                                    a(class="pagination-link is-current" aria-label="Goto page 1") 1
+                                                li
+                                                    a(class="pagination-link" aria-label="Goto page 2") 2
+                                                li
+                                                    span(class="pagination-ellipsis") &hellip;
+                                                li
+                                                    a(class="pagination-link" aria-label="Goto page 4056") 4056
+                        div(class="column is-4")
+                            div(class="container is-fluid font scm")
+                                div(class="container is-fluid scm")
+                                    h3(class="title is-4 ccon") Temas
+                                    div(class="button tibo")
+                                        small How to
+                                    div(class="button tibo")
+                                        small Problem or error
+                                    div(class="button tibo")
+                                        small Crash or freeze
+                                    div(class="button tibo1")
+                                        small Import and export
+                                    div(class="button tibo1")
+                                        small Performance
+                                    div(class="button tibo1")
+                                        small FAQ
+                                    div(class="button tibo1")
+                                        small +9
+                                    hr(class="hrs")
+                            div(class="container is-fluid font scm")
+                                div(class="container is-fluid scm")
+                                    h3(class="title is-4 ccon") Recursos
+
+
+        div(class="hero is-small hfc")
+            div(class="hero-body hbs")
+                div(class="container is-fluid") 
+                        
+
+                                            
+
+                                    
