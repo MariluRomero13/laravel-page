@@ -1,3 +1,10 @@
+.nsticky-FA {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    z-index: 30;
+}
+
 .textos-titulos{
     color: #2D2D2D; 
     font-size: 35px;
