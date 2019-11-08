@@ -1,4 +1,15 @@
-
+.barra{
+background: #202020; 
+padding-top: 1%; 
+padding-bottom: -.2%; 
+padding-left: 70px; 
+padding-right: 70px;
+}
+.nsticky {
+    position: sticky !important;
+    top: 0px;
+    z-index: 30;
+}
 
 .page-title{
     width: calc(100% - 50px);

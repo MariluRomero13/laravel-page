@@ -5,21 +5,59 @@ block title
 
 block styles
     link(rel="stylesheet" src="http://127.0.0.1:8000/css/requisitos.css")
+    link(rel="stylesheet" href="http://127.0.0.1:8000/css/index.css")
+    link(rel="stylesheet" href="http://127.0.0.1:8000/css/helpx.css")
 
 block content
-    nav(class="navbar is-dark" role="navigation" aria-label="main navigation")
-        div(class="navbar-brand")
-            h1(class="navbar-item") Requisitos del sistema de Photoshop
-        div(class="navbar-end")
-            div(class="navbar-item field has-addons")
+    header
+        include ../layouts/sub-menu.pug
+        div(class="columns is-desktop barra-negra")
+            div(class="column is-6")
+                h1(class="page-title") Requisitos del sistema de Photoshop
+            div(class="column is-6")
+                div(class="field has-addons has-addons-right")
                     p(class="control")
-                        input(class="input" type="text" placeholder="Busca Asistencia de Photoshop")
+                        input(class="input is-medium" type="text" placeholder="Buscar en Asistencia de Adobe")
                     p(class="control")
-                        button(class="button") 
-                            i(class="fas fa-search" aria-hidden="true")
+                        button(class="button is-medium") 
+                            i(class="fas fa-search")
+
+    nav(class="navbar" role="navigation" aria-label="main navigation")  
+        div(class="container")
+                div(class="columns is-mobile")
+                    div(class="column is-6 is-3-desktop ali dis")
+                        a(class="") Adobe Creative Cloud Guía del usuario
+                    div(class="column is-6 is-8-mobile ali is-offset-1-touch")
+                        a(class="ali") Descargar, instalar, configurar y actualizar
+                    div(class="column is-1-touch dis")
+                        div(class="container")
+                            div(class="dropdown is-hoverable pcpc")
+                                div(class="dropdown-trigger")
+                                    button(class="button" aria-haspopup="true" aria-controls="dropdown-menu")
+                                        span(class="spaf") Seleccionar un artículo:
+                                        span(class="icon is-small")
+                                            i(class="fas fa-angle-down" aria-hidden="true")
+                                div(class="dropdown-menu" id="dropdown-menu" role="menu")
+                                    div(class="dropdown-content")
+                                        a(class="dropdown-item") Descargar e instalar una version de prueba de Creative Cloud
+                                        a(class="dropdown-item") Actualizar las Aplicaciones de Creative Cloud
+                                        a(class="dropdown-item") Descargar e instalar Photoshop CC
+                                        a(class="dropdown-item") Desinstalación de la aplicación de escritorio de Creative Cloud
+                                        a(class="dropdown-item") Desinstalar o eliminar las aplicaciones de Creative Cloud
+                                        a(class="dropdown-item") Cambiar el idioma de las aplicaciónes de Creative Cloud
+                                        a(class="dropdown-item") Adobe Application Updater
+                                        a(class="dropdown-item") Actualizar las aplicacione de Creative Cloud
+                                        a(class="dropdown-item") Iniciar aplicaciones de Creative Cloud
+                                        a(class="dropdown-item") Espacio de trabajo Inicio
+                                        a(class="dropdown-item") Preguntas frecuentes sobre versiones
+                                        a(class="dropdown-item") Descargar e instalar Light Room 6(licencia de aplicacion única)
+                                        a(class="dropdown-item") Descargar e instalar las aplicaciones de Creative Cloud
+                
+            
+
     
     div(class="columns")
-        div(class="column is-6 is-offset-2")
+        div(class="column is-three-quarters")
             div(class="section")
                 p Para ejecutar y utilizar Photoshop , su equipo debe cumplir con las especificaciones técnicas mínimas que se indican a continuación.
 
@@ -129,6 +167,7 @@ block content
                         p 繁體中文
                         p 한국어
                 p: i * Versiones árabe y hebrea compatibles con una versión para Oriente Medio que presenta plena compatibilidad con escrituras de derecha a izquierda, particularidades árabes y hebreas, y una interfaz en inglés. También, la versión francesa (français*) para África del Norte con plena compatibilidad con escrituras de derecha a izquierda y particularidades árabes y hebreas, además de una interfaz en francés.
+            hr
             div(class="section")
                 p: h1 Requisitos del procesador de gráficos
                 p: h2: strong Funciones que requieren un procesador gráfico
@@ -143,6 +182,7 @@ block content
                  li Vista de pájaro
                  li Panorámicas manuales
                  li Cambio de tamaño de pincel suave
+                hr
                 strong Funciones que requieren una GPU para obtener aceleración
                 ul
                  li Mesas de trabajo
@@ -154,6 +194,23 @@ block content
                  li Enfoque suavizado (Reducción de ruido – aceleración OpenCL)
                  li Deformación de perspectiva
                  li Seleccionar y enmascarar (aceleración OpenCL)
+            hr
+            div(class="section")
+                p: h1: strong Tarjeta gráfica probada
+                p Adobe ha probado las versiones para equipos de escritorios y portátiles de las siguientes tarjetas de procesadores de gráficos:
+                ul  
+                 li nVidia GeForce: series 400, 500, 600, 700 
+                 li nVidia GeForce GTX 965M y 980M
+                 li nVidia Quadro: 2000, 4000 (Windows® y Mac OS), CX, 5000, 6000, K600, K2000, K4000, K5000 (Windows® y Mac OS), M4000, M5000, P2000, P4000, P5000
+                 li nVidia GRID K1, K2
+                 li AMD/ATI Radeon: series 5000, 6000, 7000, R7 y R9, 7950 Mac OS
+                 li AMD/ATI FirePro: 3800, 4800, 5800, 7800, 8800, 9800, 3900, 4900, 5900, 7900, W8100, W9100, D300, D500, D700
+                 li AMD/ATI FireGL: W5000, W7000, W8000
+                 li AMD RX 480
+                 li nVidia GeForce 1080 GTX
+                 li Gráficos Intel® HD: P530, P630, 5000, 515, 520
+                 li Gráficos Intel® Iris Pro: P5200, P6300, P580
+                 li Gráficos Intel HD 515 y 520
                 
                  
 
@@ -163,19 +220,19 @@ block content
 
 
 
-
-        div(class="column is-2")
-            h3 En esta pagina
-            ul(class="")
-                li(class="") 
-                    a(href="") Requisitos minimos del sistema para Photoshop
-                li(class="") 
-                    a(href="") Versiones en otros idiomas disponibles para Photoshop
-                li(class="") 
-                    a(href="") Requisitos del procesador de graficos
-                li(class="") 
-                    a(href="") Adobe Camera Raw
-            small Se aplica a: 
-                strong Adobe Photoshop
-            small Ultima publicacion: 
-                strong 4 de noviembre de 2019
+        div(class="column")
+            div(class="menu nsticky")
+                p(class="menu-label") En esta pagina
+                ul(class="menu-list")
+                    li(class="") 
+                        a(href="") Requisitos minimos del sistema para Photoshop
+                    li(class="") 
+                        a(href="") Versiones en otros idiomas disponibles para Photoshop
+                    li(class="") 
+                        a(href="") Requisitos del procesador de graficos
+                    li(class="") 
+                        a(href="") Adobe Camera Raw
+                p: small Se aplica a: 
+                    strong Adobe Photoshop
+                p: small Ultima publicacion: 
+                    strong 4 de noviembre de 2019

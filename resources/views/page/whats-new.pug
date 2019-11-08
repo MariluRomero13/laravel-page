@@ -5,49 +5,67 @@ block title
 
 block styles
     link(rel="stylesheet" src="http://127.0.0.1:8000/css/whats-new.css")
+    link(rel="stylesheet" href="http://127.0.0.1:8000/css/index.css")
+    link(rel="stylesheet" href="http://127.0.0.1:8000/css/helpx.css")
 
 block content
     header(id="page-header")
-        nav(id="title-bar" class="navbar is-dark" rol="navigation" aria-label="main navigation")
-            div(class="navbar-brand")
-                h1(class="navbar-item") Novedades de Photoshop
-            div(class="navbar-end")
-                div(class="navbar-item field has-addons")
+        include ../layouts/sub-menu.pug
+        div(class="columns is-desktop barra-negra")
+            div(class="column is-6")
+                h1(class="page-title") Novedades de Photoshop
+            div(class="column is-6")
+                div(class="field has-addons has-addons-right")
                     p(class="control")
-                        input(class="input" type="text" placeholder="Busca Asistencia de Photoshop")
+                        input(class="input is-medium" type="text" placeholder="Buscar en Asistencia de Adobe")
                     p(class="control")
-                        button(class="button") 
-                            i(class="fas fa-search" aria-hidden="true")
+                        button(class="button is-medium") 
+                            i(class="fas fa-search")
 
 
+    nav(class="navbar" role="navigation" aria-label="main navigation")  
+        div(class="container")
+                div(class="columns is-mobile")
+                    div(class="column is-6 is-3-desktop ali dis")
+                        a(class="") Adobe Creative Cloud Guía del usuario
+                    div(class="column is-6 is-8-mobile ali is-offset-1-touch")
+                        a(class="ali") Descargar, instalar, configurar y actualizar
+                    div(class="column is-1-touch dis")
+                        div(class="container")
+                            div(class="dropdown is-hoverable pcpc")
+                                div(class="dropdown-trigger")
+                                    button(class="button" aria-haspopup="true" aria-controls="dropdown-menu")
+                                        span(class="spaf") Seleccionar un artículo:
+                                        span(class="icon is-small")
+                                            i(class="fas fa-angle-down" aria-hidden="true")
+                                div(class="dropdown-menu" id="dropdown-menu" role="menu")
+                                    div(class="dropdown-content")
+                                        a(class="dropdown-item") Descargar e instalar una version de prueba de Creative Cloud
+                                        a(class="dropdown-item") Actualizar las Aplicaciones de Creative Cloud
+                                        a(class="dropdown-item") Descargar e instalar Photoshop CC
+                                        a(class="dropdown-item") Desinstalación de la aplicación de escritorio de Creative Cloud
+                                        a(class="dropdown-item") Desinstalar o eliminar las aplicaciones de Creative Cloud
+                                        a(class="dropdown-item") Cambiar el idioma de las aplicaciónes de Creative Cloud
+                                        a(class="dropdown-item") Adobe Application Updater
+                                        a(class="dropdown-item") Actualizar las aplicacione de Creative Cloud
+                                        a(class="dropdown-item") Iniciar aplicaciones de Creative Cloud
+                                        a(class="dropdown-item") Espacio de trabajo Inicio
+                                        a(class="dropdown-item") Preguntas frecuentes sobre versiones
+                                        a(class="dropdown-item") Descargar e instalar Light Room 6(licencia de aplicacion única)
+                                        a(class="dropdown-item") Descargar e instalar las aplicaciones de Creative Cloud
+    
+    
     div(class="columns")
-        div(class="column is-6 is-offset-2")
-            nav(class="breadcrumb" aria-labels="breadcrumb")
-                ul
-                    li 
-                        a(href) Adobe Photoshop Guía del Usuario
-                    li 
-                        a(href) Introduccion al Photoshop
-                    li
-                        div(class="select is-small")
-                            select()
-                                option Seleccionar un articulo:
-                                option Creación de documentos
-                                option Photoshop | Preguntas frecuentes
-                                option Requisitos del sistema de Photoshop
-                                option Migración de ajustes, acciones y ajustes preestablecidos
-                                option Introducción a Photoshop
-                                option Migrar acciones
-    div(class="columns")
-        div(class="column is-7 is-offset-2 is-dark")
-            div(class="page-description") Novedades de la última version de Photoshop
-            figure(class="image is-96x96")
-                img(src="http://127.0.0.1:8000/images/logo_photo.png" class="cq-dd-image")         
-            div(class="imageandtext-text imageandtext-text-83")
-                div
-                    div(class="text")
-                        p La versión de octubre de 2018 de Photoshop (versión 20.0) incluye nuevas e increíbles funciones para diseñadores, fotógrafos digitales e ilustradores. Continúe leyendo para obtener una introducción rápida de estas funciones. También encontrará vínculos a los recursos que ofrecen más información.
-            br
+        div(class="column is-three-quarters")
+            div(class="section")
+                div(class="page-description") Novedades de la última version de Photoshop
+                figure(class="image is-96x96")
+                    img(src="http://127.0.0.1:8000/images/logo_photo.png" class="cq-dd-image")         
+                div(class="imageandtext-text imageandtext-text-83")
+                    div
+                        div(class="text")
+                            p La versión de octubre de 2018 de Photoshop (versión 20.0) incluye nuevas e increíbles funciones para diseñadores, fotógrafos digitales e ilustradores. Continúe leyendo para obtener una introducción rápida de estas funciones. También encontrará vínculos a los recursos que ofrecen más información.
+            hr
             div(class="note parbase section")
                 div(class="help-note")
                     p
@@ -96,39 +114,44 @@ block content
                 div(class="text")
                     <p>Para obtener más información, consulte <a href="/mx/photoshop/using/content-aware-fill.html" target="_blank"><strong>Quitar objetos de las fotografías con el espacio de trabajo Relleno según el contenido</strong></a>.</p>
 
-        div(class="column is-2")
-            h3 En esta página
-            ul(class="")
-                li(class="") 
-                    a(href="") Herramientas Marco para enmascarar de forma fácil
-                li(class="") 
-                    a(href="") Nuevo diseño de Relleno según contenido
-                li(class="") 
-                    a(href="") Nuevo modo multideshacer
-                li(class="") 
-                    a(href="") Mejoras de uso
-                li(class="") 
-                    a(href="") Previsualizacion dinamica del modo de fusion
-                li(class="") 
-                    a(href="") Modo de simetría
-                li(class="") 
-                    a(href="") Rueda de colores para la seleccion de colores 
-                li(class="") 
-                    a(href="") Pantalla de inicio 
-                li(class="") 
-                    a(href="") Aprendizaje mejorado en la aplicacion
-                li(class="") 
-                    a(href="") Funciones mas solicitadas por el cliente 
-                li(class="") 
-                    a(href="") Preferencia para aumentar el tamaño de la interfaz de usuario 
-                li(class="") 
-                    a(href="") Compatibilidad con fuentes del Sur de Asia 
-                li(class="") 
-                    a(href="") Motor de composicion modernizado
-                li(class="") 
-                    a(href="") Camera Raw | Nuevas Funciones
-                li(class="") 
-                    a(href="") ¿Que ha cambiado
+        div(class="column")
+            div(class="menu nsticky")
+                p(class="menu-label") En esta página
+                ul(class="menu-list")
+                    li(class="") 
+                        a(href="") Herramientas Marco para enmascarar de forma fácil
+                    li(class="") 
+                        a(href="") Nuevo diseño de Relleno según contenido
+                    li(class="") 
+                        a(href="") Nuevo modo multideshacer
+                    li(class="") 
+                        a(href="") Mejoras de uso
+                    li(class="") 
+                        a(href="") Previsualizacion dinamica del modo de fusion
+                    li(class="") 
+                        a(href="") Modo de simetría
+                    li(class="") 
+                        a(href="") Rueda de colores para la seleccion de colores 
+                    li(class="") 
+                        a(href="") Pantalla de inicio 
+                    li(class="") 
+                        a(href="") Aprendizaje mejorado en la aplicacion
+                    li(class="") 
+                        a(href="") Funciones mas solicitadas por el cliente 
+                    li(class="") 
+                        a(href="") Preferencia para aumentar el tamaño de la interfaz de usuario 
+                    li(class="") 
+                        a(href="") Compatibilidad con fuentes del Sur de Asia 
+                    li(class="") 
+                        a(href="") Motor de composicion modernizado
+                    li(class="") 
+                        a(href="") Camera Raw | Nuevas Funciones
+                    li(class="") 
+                        a(href="") ¿Que ha cambiado
+                p: small Se aplica a: 
+                    strong Adobe Photoshop
+                p: small Ultima publicacion: 
+                    strong 4 de noviembre de 2019
             
 
 
